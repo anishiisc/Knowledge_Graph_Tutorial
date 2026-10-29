@@ -1,0 +1,124 @@
+{
+  "namespace": "http://meridian.example/kg/",
+  "classes": {
+    "Person": null,
+    "Executive": "Person",
+    "Manager": "Person",
+    "Engineer": "Person",
+    "Analyst": "Person",
+    "Researcher": "Person",
+    "Technology": null,
+    "Language": "Technology",
+    "Database": "Technology",
+    "Framework": "Technology",
+    "CloudService": "Technology",
+    "MLTool": "Technology",
+    "Department": null,
+    "Project": null,
+    "Client": null,
+    "City": null
+  },
+  "properties": {
+    "works_in": {
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Department"
+      ],
+      "functional": true,
+      "inverse": "has_member"
+    },
+    "reports_to": {
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Person"
+      ],
+      "functional": true,
+      "inverse": "manages",
+      "transitive": true,
+      "irreflexive": true
+    },
+    "works_on": {
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Project"
+      ],
+      "inverse": "staffed_by"
+    },
+    "leads": {
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Project"
+      ],
+      "subPropertyOf": "works_on",
+      "inverse": "led_by"
+    },
+    "uses_tech": {
+      "domain": [
+        "Project"
+      ],
+      "range": [
+        "Technology"
+      ],
+      "inverse": "used_by"
+    },
+    "delivered_for": {
+      "domain": [
+        "Project"
+      ],
+      "range": [
+        "Client"
+      ],
+      "functional": true,
+      "inverse": "has_project"
+    },
+    "has_skill": {
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Technology"
+      ],
+      "inverse": "skill_of"
+    },
+    "located_in": {
+      "domain": [
+        "Department",
+        "Client"
+      ],
+      "range": [
+        "City"
+      ],
+      "functional": true,
+      "inverse": "hosts"
+    },
+    "depends_on": {
+      "domain": [
+        "Technology"
+      ],
+      "range": [
+        "Technology"
+      ],
+      "transitive": true,
+      "irreflexive": true,
+      "inverse": "required_by"
+    },
+    "mentors": {
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Person"
+      ],
+      "irreflexive": true,
+      "inverse": "mentored_by"
+    }
+  }
+}

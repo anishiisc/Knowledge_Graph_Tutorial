@@ -1,0 +1,740 @@
+doc_id,sent_idx,text
+doc_001,0,Project Europa is built with Google BigQuery.
+doc_001,1,Sofia Sato is part of the Project Bellatrix team.
+doc_001,2,ReactJS is built on TS.
+doc_002,0,Budget approvals are pending for the next phase.
+doc_002,1,E. Kulkarni has strong experience with TensorFlow and Rust.
+doc_002,2,Sofia Sato works in the Customer Insights department.
+doc_002,3,P. Nair mentors R. Malhotra.
+doc_002,4,"O. Clarke has strong experience with Spark, Elasticsearch and TF."
+doc_002,5,Project Selene relies on Hugging Face Transformers and Neo4j.
+doc_003,0,Aditya Patel is managed by Pooja Patel.
+doc_003,1,Documentation for the release candidate is incomplete.
+doc_003,2,"Project Nova relies on Elasticsearch, MLflow and BigQuery."
+doc_004,0,Neo4j depends on Java.
+doc_004,1,Sarah Smith no longer works on Aurora.
+doc_004,2,Olivia Roy is managed by Layla Ghosh.
+doc_004,3,dbt is built on SQL.
+doc_005,0,"P. Bose leads Project Rigel, which is delivered for Cobalt."
+doc_005,1,MLflow is built on Python.
+doc_005,2,James Khan contributes to Project Hyperion.
+doc_005,3,Travel plans for the offsite are still being finalised.
+doc_006,0,Rahul Walker no longer works on Project Zenith.
+doc_006,1,Amit Khan attended the Snowflake workshop.
+doc_006,2,Several action items were carried over from the previous meeting.
+doc_006,3,Project Dione relies on ReactJS and Redis.
+doc_006,4,"Pooja Bose is skilled in Scala, XGBoost and TensorFlow."
+doc_007,0,Sterling Ridge Bank is headquartered in Toronto.
+doc_007,1,Project Larissa uses Python and PyTorch.
+doc_007,2,Project Draco is being built for Civic Registry Board.
+doc_008,0,A. Iyer works in the Research department.
+doc_008,1,J. Wong no longer works on Triton.
+doc_008,2,"Olivia Roy has strong experience with Lambda, Azure Synapse and Go."
+doc_009,0,Documentation for the release candidate is incomplete.
+doc_009,1,Riya Malhotra works in the Data Platform department.
+doc_009,2,Sneha Kulkarni has strong experience with MongoDB and sklearn.
+doc_009,3,Riya Taylor mentors Divya Kim.
+doc_009,4,L. Bhat is skilled in Django and Airflow.
+doc_009,5,James Wong is skilled in Django and TensorFlow.
+doc_010,0,Meera Das is managed by P. Nair.
+doc_010,1,H. Walker has strong experience with Neo4j.
+doc_010,2,Rohan Roy contributes to Umbra.
+doc_010,3,Ravi Malhotra no longer works on Apollo.
+doc_010,4,"Rohan Roy leads Project Umbra, which is delivered for Ardent."
+doc_010,5,M. Das reports to Priya Nair.
+doc_011,0,Thomas Kim has strong experience with Neo4j and FastAPI.
+doc_011,1,N. Ghosh reports to L. Ghosh.
+doc_011,2,Farah Morgan works on Project Kepler.
+doc_011,3,"Layla Ghosh leads NEBULA, which is delivered for Quill."
+doc_011,4,N. Clarke is mentored by Lakshmi Joshi.
+doc_011,5,Priya Nair leads Project Apollo.
+doc_012,0,A risk register update is due before the end of the month.
+doc_012,1,T. Gupta contributes to Project Dione.
+doc_012,2,A. Iyer is managed by Isha Khan.
+doc_012,3,Hiroshi Walker works on Project Quasar.
+doc_013,0,Project Nebula relies on Neo4j and Redis.
+doc_013,1,Sanjay Walker works in the Research department.
+doc_013,2,Meera Roy leads CYGNUS.
+doc_013,3,Project Vesta is being built for Northgate.
+doc_014,0,Kavya Smith has strong experience with TensorFlow.
+doc_014,1,Rahul Shetty is a member of the Cloud Infrastructure department.
+doc_014,2,Project Apollo is being built for Corvid.
+doc_014,3,"Sneha Kulkarni is skilled in Docker, Mongo and Go."
+doc_015,0,Riya Malhotra mentors L. Kim.
+doc_015,1,Project Hydra relies on Spark and dbt.
+doc_015,2,"LYRA relies on ClickHouse, Apache Kafka and dbt."
+doc_015,3,React depends on TypeScript.
+doc_015,4,S. Gupta works on Project Vesta.
+doc_016,0,"Sanjay Rossi is skilled in Neo4j, BigQuery and MLflow."
+doc_016,1,M. Bose is skilled in Redis and Django.
+doc_016,2,Divya Rossi is a member of the Applied AI department.
+doc_017,0,Rahul Shetty is mentored by Olivia Roy.
+doc_017,1,"Chen Fischer has strong experience with Docker, Apache Kafka and Elastic."
+doc_017,2,Orbis Logistics is headquartered in Pune.
+doc_017,3,"P. Patel has strong experience with Python, Google BigQuery and dbt."
+doc_017,4,Draco uses Terraform.
+doc_017,5,Sarah Rao is the lead for DENEB.
+doc_018,0,Project Deneb is delivered for Lantern Studios.
+doc_018,1,Rohan Roy is a member of the Finance Analytics department.
+doc_018,2,Riya Malhotra is skilled in dbt.
+doc_019,0,Project Rigel is built with Postgres.
+doc_019,1,Riya Malhotra attended the Postgres workshop.
+doc_019,2,Neha Basu mentors Mateo Nair.
+doc_019,3,"Project Apollo relies on Spark, Airflow and Snowflake."
+doc_019,4,Airflow depends on Python.
+doc_020,0,M. Das is part of the Apollo team.
+doc_020,1,M. Das leads LYRA.
+doc_020,2,Divya Kim works on Project Quasar.
+doc_020,3,"Ananya Rao is skilled in Spark, PostgreSQL and Kafka."
+doc_020,4,"James Ito is skilled in React, Elastic and TensorFlow."
+doc_021,0,Linh Khan is the lead for Project Titan.
+doc_021,1,Sanjay Gupta is managed by Anjali Nguyen.
+doc_021,2,FastAPI is built on Python.
+doc_021,3,Project Lyra is being built for Maple.
+doc_022,0,"PHOEBE relies on AWS S3, Synapse and Java."
+doc_022,1,Mateo Bhat is mentored by Rohan Roy.
+doc_022,2,"R. Chatterjee leads Nova, which is delivered for Lumen Health Network."
+doc_022,3,Sterling is headquartered in Toronto.
+doc_022,4,The steering committee asked for a clearer timeline.
+doc_022,5,Project Atlas uses Synapse and Airflow.
+doc_023,0,Thomas Kim mentors Layla Sen.
+doc_023,1,scikit-learn is built on Python.
+doc_023,2,Callisto uses TypeScript.
+doc_023,3,Sanjay Roy works in the Finance Analytics department.
+doc_023,4,Spark depends on Scala.
+doc_023,5,"P. Nair leads Project Orion, which is delivered for Orbis Logistics."
+doc_024,0,"R. Roy leads Project Pegasus, which is delivered for Halcyon."
+doc_024,1,"R. Roy leads Project Sirius, which is delivered for Echo Street Media."
+doc_024,2,Airflow is built on Python.
+doc_024,3,E. Mukherjee has strong experience with Spring Boot.
+doc_024,4,Project Zenith is delivered for Northgate.
+doc_024,5,XGBoost is built on Python.
+doc_025,0,Selene is delivered for Ferrous Dynamics.
+doc_025,1,Project Pulsar uses PyTorch.
+doc_025,2,Divya Shetty no longer works on Project Vega.
+doc_025,3,Project Zenith is being built for Northgate Capital.
+doc_025,4,Docker depends on Go.
+doc_025,5,Aarav Nguyen is the lead for Altair.
+doc_026,0,M. Wong reports to Manish Rao.
+doc_026,1,"Gemini relies on Python, Kafka and Docker."
+doc_026,2,Layla Sen is skilled in FastAPI.
+doc_027,0,The steering committee asked for a clearer timeline.
+doc_027,1,Mateo Wong manages Amit Mukherjee.
+doc_027,2,J. Wong has strong experience with Python.
+doc_027,3,TF depends on Python.
+doc_027,4,Project Nebula relies on Azure Synapse.
+doc_028,0,"R. Taylor leads Pulsar, which is delivered for Aster Care Systems."
+doc_028,1,Project Orion is delivered for Orbis.
+doc_028,2,PyTorch is built on Python.
+doc_028,3,Research is based in Singapore.
+doc_028,4,Project Fornax uses Python and Elasticsearch.
+doc_028,5,Wei Patel no longer works on Project Altair.
+doc_029,0,PyTorch depends on Python.
+doc_029,1,R. Malhotra is skilled in React.
+doc_029,2,Sarah Smith no longer works on Project Aurora.
+doc_029,3,R. Verma is managed by Hiroshi Bhat.
+doc_029,4,Hiroshi Shetty attended the AWS S3 workshop.
+doc_029,5,T. Gupta works on Project Dione.
+doc_030,0,M. Wong is the lead for Project Hyperion.
+doc_030,1,Olivia Roy mentors Rahul Shetty.
+doc_030,2,Sneha Kulkarni manages Ananya Tan.
+doc_031,0,Isha Mukherjee is skilled in S3 and Spring Boot.
+doc_031,1,R. Verma contributes to Orion.
+doc_031,2,Elastic depends on Java.
+doc_031,3,Hiroshi Walker has strong experience with Neo4j and Hugging Face Transformers.
+doc_032,0,Chen Sharma works on Project Pegasus.
+doc_032,1,Divya Shetty no longer works on Project Vega.
+doc_032,2,Project Deneb is built with React and Python.
+doc_032,3,Project Europa is being built for Lantern.
+doc_032,4,Sarah Smith no longer works on Project Zenith.
+doc_033,0,Cobalt Life is headquartered in Bengaluru.
+doc_033,1,Sarah Smith reports to Ravi Chatterjee.
+doc_033,2,Sanjay Walker reports to Isha Khan.
+doc_033,3,Olivia Roy mentors Nikhil Ghosh.
+doc_034,0,Sanjay Clarke reports to Yuki Tan.
+doc_034,1,dbt is built on SQL.
+doc_034,2,Deepak Roy attended the Airflow workshop.
+doc_034,3,Hannah Lim is skilled in Postgres and Python.
+doc_034,4,Metro is headquartered in London.
+doc_035,0,Umbra relies on Python and SQL.
+doc_035,1,A. Rao leads Project Hydra.
+doc_035,2,Amit Khan no longer works on Project Hyperion.
+doc_036,0,L. Sen is a member of the Applied AI department.
+doc_036,1,"Project Atlas is built with Azure Synapse, ClickHouse and Airflow."
+doc_036,2,Scala depends on Java.
+doc_036,3,Mateo Bose has strong experience with Terraform.
+doc_036,4,L. Joshi mentors Neha Clarke.
+doc_036,5,Imran Chatterjee works on AURORA.
+doc_037,0,A. Patel is managed by P. Patel.
+doc_037,1,"Emily Nakamura leads BELLATRIX, which is delivered for Kestrel."
+doc_037,2,Executive Office is based in Bengaluru.
+doc_038,0,Project Phoebe is being built for Maple and Mint Stores.
+doc_038,1,Project Kepler is delivered for Ferrous Dynamics.
+doc_038,2,Project Mira is being built for Quill Industrial.
+doc_038,3,P. Roy is skilled in Kafka and PostgreSQL.
+doc_038,4,"Sofia Sato is skilled in Java, Spark and Go."
+doc_039,0,Kubernetes is built on Docker.
+doc_039,1,"Riya Nakamura has strong experience with Python, PyTorch and Rust."
+doc_039,2,"Project Zenith uses Hugging Face Transformers, sklearn and FastAPI."
+doc_040,0,"James Fischer is skilled in Kubernetes, Rust and PyTorch."
+doc_040,1,P. Verma is skilled in Azure Synapse and Postgres.
+doc_040,2,Aarav Nguyen contributes to Project Ganymede.
+doc_041,0,Project Cygnus uses Python and Kafka.
+doc_041,1,Hiroshi Clarke works on PROTEUS.
+doc_041,2,Aarav Nguyen contributes to Project Altair.
+doc_042,0,Layla Bhat is a member of the Product Engineering department.
+doc_042,1,N. Menon attended the Python workshop.
+doc_042,2,"Lucas Costa has strong experience with Apache Kafka, TypeScript and K8s."
+doc_042,3,"Chen Sharma is skilled in Google BigQuery, Python and Snowflake."
+doc_042,4,Rohan Roy no longer works on UMBRA.
+doc_043,0,Rigel relies on PyTorch and scikit-learn.
+doc_043,1,Project Europa is being built for Lantern.
+doc_043,2,Project Zenith uses PyTorch and FastAPI.
+doc_043,3,"Manish Rao leads Project Phoebe, which is delivered for Maple and Mint Stores."
+doc_043,4,Amit Mukherjee works in the Product Engineering department.
+doc_043,5,"ELARA is built with Rust, Python and Elasticsearch."
+doc_044,0,Lucas Costa attended the PyTorch workshop.
+doc_044,1,XGBoost is built on Python.
+doc_044,2,Atlas is delivered for Pelican Mutual.
+doc_044,3,Isha Rossi is part of the Project Zenith team.
+doc_045,0,TRITON uses Django and TensorFlow.
+doc_045,1,Olivia Roy leads Project Kepler.
+doc_045,2,Neha Clarke is a member of the Cybersecurity department.
+doc_046,0,Priya Nair manages Elena Clarke.
+doc_046,1,"Project Draco is built with Terraform, Python and Kubernetes."
+doc_046,2,R. Taylor attended the BigQuery workshop.
+doc_046,3,Project Zenith is being built for Northgate.
+doc_046,4,Lakshmi Kim has strong experience with scikit-learn and S3.
+doc_046,5,Mateo Bhat contributes to Project Mira.
+doc_047,0,Thomas Kim contributes to Project Helios.
+doc_047,1,A. Tan is a member of the Cybersecurity department.
+doc_047,2,"S. Rossi has strong experience with Spark, Airflow and Neo4j."
+doc_047,3,J. Khan works in the Product Engineering department.
+doc_047,4,I. Khan manages M. Mukherjee.
+doc_048,0,M. Wong works in the Product Engineering department.
+doc_048,1,D. Roy has strong experience with Redis and Terraform.
+doc_048,2,Pooja Patel manages Sarah Rao.
+doc_048,3,Executive Office is based in Bangalore.
+doc_048,4,Ananya Tan reports to Sneha Kulkarni.
+doc_048,5,The quarterly review will be held next week.
+doc_049,0,"S. Reddy is skilled in S3, Airflow and dbt."
+doc_049,1,Granite Works is headquartered in London.
+doc_049,2,P. Roy is managed by Priya Nair.
+doc_050,0,K8s is built on Docker.
+doc_050,1,Lakshmi Joshi is skilled in Go.
+doc_050,2,Ravi Chatterjee manages Divya Rossi.
+doc_050,3,"A. Nguyen leads Altair, which is delivered for Maple and Mint Stores."
+doc_050,4,Project Sirius is delivered for Echo Street Media.
+doc_051,0,D. Kim is mentored by Riya Taylor.
+doc_051,1,"Mateo Wong has strong experience with S3, Docker and Cassandra."
+doc_051,2,"Project Vega is built with SQL, scikit-learn and Spring Boot."
+doc_051,3,Priya Nair is a member of the Data Platform department.
+doc_051,4,James Ito is managed by P. Patel.
+doc_051,5,Aster Care Systems is headquartered in Hyderabad.
+doc_052,0,R. Roy leads Project Sirius.
+doc_052,1,Docker is built on Go.
+doc_052,2,Project Nebula is being built for Quill Industrial.
+doc_053,0,FastAPI depends on Python.
+doc_053,1,Anjali Nakamura reports to R. Chatterjee.
+doc_053,2,MIRA is being built for Quill Industrial.
+doc_053,3,"Project Tethys uses Spring Boot, Apache Cassandra and Redis."
+doc_054,0,Spring is built on Java.
+doc_054,1,Halcyon is headquartered in Singapore.
+doc_054,2,Project Apollo is delivered for Corvid.
+doc_054,3,Project Rhea relies on Rust.
+doc_054,4,Pelican Mutual is headquartered in Toronto.
+doc_055,0,Project Triton is built with Django and Elasticsearch.
+doc_055,1,Project Rhea is being built for Ardent.
+doc_055,2,"P. Verma has strong experience with Synapse, PostgreSQL and TypeScript."
+doc_055,3,Layla Sen is mentored by T. Kim.
+doc_055,4,PyTorch depends on Python.
+doc_056,0,Project Fornax is delivered for Corvid.
+doc_056,1,"Meera Mukherjee leads Project Triton, which is delivered for Echo Street Media."
+doc_056,2,"Kepler uses Go, Synapse and Redis."
+doc_056,3,Rahul Walker attended the scikit-learn workshop.
+doc_057,0,Tara Gupta has strong experience with TS.
+doc_057,1,Project Phoebe is built with PostgreSQL and Java.
+doc_057,2,L. Sen reports to Ravi Chatterjee.
+doc_057,3,GEMINI is being built for Metro Transit Authority.
+doc_057,4,Northgate Capital is headquartered in Singapore.
+doc_058,0,Budget approvals are pending for the next phase.
+doc_058,1,"M. Sato leads Gemini, which is delivered for Metro."
+doc_058,2,Layla Mehta is skilled in Snowflake and PostgreSQL.
+doc_058,3,Ravi Malhotra attended the Airflow workshop.
+doc_059,0,Terraform depends on Golang.
+doc_059,1,Neo4j depends on Java.
+doc_059,2,Linh Khan has strong experience with scikit-learn and SQL.
+doc_059,3,P. Patel manages R. Verma.
+doc_059,4,Project Nebula is built with Redis.
+doc_060,0,Scala depends on Java.
+doc_060,1,Farah Lim leads Project Iapetus.
+doc_060,2,Meera Pillai is the lead for MIRA.
+doc_060,3,W. Patel is part of the Project Bellatrix team.
+doc_060,4,Scala is built on Java.
+doc_060,5,Manish Rao reports to Sanjay Clarke.
+doc_061,0,Northgate is headquartered in Singapore.
+doc_061,1,Larissa is built with MLflow.
+doc_061,2,S. Smith works on Project Zenith.
+doc_061,3,"Lakshmi Joshi is skilled in Rust, Go and Elasticsearch."
+doc_061,4,LangChain is built on Python.
+doc_061,5,Mei Menon is a member of the Applied AI department.
+doc_062,0,Cloud Infrastructure is based in Pune.
+doc_062,1,Project Larissa is being built for Kestrel Retail Group.
+doc_062,2,Elara is being built for State.
+doc_062,3,Sanjay Walker works in the Research department.
+doc_062,4,S. Rao works on Project Deneb.
+doc_062,5,Imran Chatterjee leads Project Helios.
+doc_063,0,M. Wong is a member of the Cloud Infrastructure department.
+doc_063,1,Sneha Smith is a member of the Data Platform department.
+doc_063,2,Riya Taylor leads Project Pulsar.
+doc_064,0,Travel plans for the offsite are still being finalised.
+doc_064,1,Travel plans for the offsite are still being finalised.
+doc_064,2,James Fischer attended the Azure Synapse workshop.
+doc_064,3,Mateo Sato leads Project Gemini.
+doc_064,4,Project Orion is delivered for Orbis Logistics.
+doc_065,0,Project Oberon is built with Go and Redis.
+doc_065,1,Meera Das works on Project Lyra.
+doc_065,2,Manish Rao leads Project Rhea.
+doc_065,3,"Phoebe is built with Synapse, Spring Boot and PostgreSQL."
+doc_066,0,"A. Sato leads TETHYS, which is delivered for Willow."
+doc_066,1,Echo Street Media is headquartered in London.
+doc_066,2,H. Lim is skilled in SQL and Python.
+doc_066,3,Ravi Chatterjee contributes to Project Nova.
+doc_066,4,Shreya Clarke is skilled in Cassandra and React.
+doc_066,5,Corvid is headquartered in Singapore.
+doc_067,0,Mei Wong is a member of the Cloud Infrastructure department.
+doc_067,1,Hannah Lim is skilled in Snowflake and Google BigQuery.
+doc_067,2,Budget approvals are pending for the next phase.
+doc_067,3,Neha Menon attended the SQL workshop.
+doc_068,0,"Project Halley uses Docker, Terraform and TF."
+doc_068,1,Mateo Sato contributes to Project Gemini.
+doc_068,2,Project Nova is delivered for Lumen Health Network.
+doc_068,3,Meera Pillai is the lead for HALLEY.
+doc_069,0,Divya Shetty no longer works on APOLLO.
+doc_069,1,C. Sharma is a member of the Finance Analytics department.
+doc_069,2,Ravi Malhotra is mentored by Priya Nair.
+doc_069,3,Priya Nair is the lead for APOLLO.
+doc_069,4,Rahul Iyer is part of the Zenith team.
+doc_070,0,Apache Cassandra depends on Java.
+doc_070,1,O. Roy has strong experience with Azure Synapse and Go.
+doc_070,2,C. Sharma is skilled in Python and PyTorch.
+doc_070,3,State Revenue Office is headquartered in Pune.
+doc_070,4,Neha Clarke works on Project Rigel.
+doc_071,0,Pooja Patel works in the Customer Insights department.
+doc_071,1,Selene is delivered for Ferrous Dynamics.
+doc_071,2,Thomas Kim mentors Layla Sen.
+doc_072,0,Meera Roy no longer works on CYGNUS.
+doc_072,1,Mateo Bose is a member of the Product Engineering department.
+doc_072,2,Project Nebula is built with Redis and Terraform.
+doc_072,3,Project Phoebe relies on Spring Boot.
+doc_073,0,Rohan Roy leads Project Sirius.
+doc_073,1,Ravi Walker works in the Product Engineering department.
+doc_073,2,L. Sen is mentored by Thomas Kim.
+doc_073,3,Tara Dutta is part of the UMBRA team.
+doc_073,4,Layla Ghosh manages S. Walker.
+doc_073,5,The quarterly review will be held next week.
+doc_074,0,R. Chatterjee is the lead for Project Zenith.
+doc_074,1,Sneha Smith is managed by P. Nair.
+doc_074,2,Sarah Smith works in the Applied AI department.
+doc_074,3,Project Elara relies on Python.
+doc_074,4,Anjali Nakamura works in the Applied AI department.
+doc_074,5,Divya Rossi works on Project Rigel.
+doc_075,0,Mei Evans has strong experience with TF.
+doc_075,1,"Meera Roy leads Project Cygnus, which is delivered for State Revenue Office."
+doc_075,2,Meera Roy leads Project Draco.
+doc_076,0,Layla Smith is a member of the Data Platform department.
+doc_076,1,"Project Selene is built with Spark, TS and Neo4j."
+doc_076,2,Documentation for the release candidate is incomplete.
+doc_076,3,Sarah Reddy works in the Data Platform department.
+doc_077,0,M. Wong leads Project Hyperion.
+doc_077,1,Mateo Bhat is skilled in Azure Synapse.
+doc_077,2,Rohan Roy works on Project Vesta.
+doc_077,3,R. Malhotra attended the ClickHouse workshop.
+doc_077,4,Chen Sharma contributes to Pegasus.
+doc_077,5,Elena Haddad is managed by S. Kulkarni.
+doc_078,0,E. Mukherjee is managed by Manish Rao.
+doc_078,1,R. Roy mentors Sanjay Gupta.
+doc_078,2,Project Phoebe is delivered for Maple and Mint Stores.
+doc_078,3,"C. Fischer is skilled in Go, Elastic and Kafka."
+doc_078,4,Kubernetes depends on Docker.
+doc_078,5,Project Rigel uses PostgreSQL and Python.
+doc_079,0,A risk register update is due before the end of the month.
+doc_079,1,"Rohan Roy leads Sirius, which is delivered for Echo Street Media."
+doc_079,2,Django is built on Python.
+doc_079,3,James Fischer works on PROTEUS.
+doc_079,4,Amit Malhotra is part of the Project Hyperion team.
+doc_080,0,Meera Mukherjee attended the React workshop.
+doc_080,1,XGBoost depends on Python.
+doc_080,2,Project Dione is delivered for Aster Care Systems.
+doc_080,3,Riya Nakamura is skilled in ClickHouse.
+doc_080,4,Project Lyra relies on PostgreSQL and AWS S3.
+doc_080,5,Meera Pillai has strong experience with TF and Terraform.
+doc_081,0,Layla Smith is a member of the Data Platform department.
+doc_081,1,Fornax uses K8s and Apache Kafka.
+doc_081,2,Rahul Walker is managed by Thomas Kim.
+doc_082,0,Emily Singh is managed by Anjali Nguyen.
+doc_082,1,Sterling is headquartered in Toronto.
+doc_082,2,H. Lim contributes to Project Vesta.
+doc_082,3,Isha Khan manages James Fischer.
+doc_082,4,I. Chatterjee reports to Ravi Chatterjee.
+doc_083,0,R. Taylor mentors Divya Kim.
+doc_083,1,Hiroshi Shetty reports to L. Ghosh.
+doc_083,2,Meera Pillai mentors Pooja Nair.
+doc_083,3,Aarav Nguyen contributes to Ganymede.
+doc_084,0,H. Clarke has strong experience with Scala.
+doc_084,1,Emily Singh has strong experience with Python.
+doc_084,2,"Layla Bhat leads Project Janus, which is delivered for Kestrel."
+doc_085,0,Deepak Roy works on Project Oberon.
+doc_085,1,Thomas Kim works in the Applied AI department.
+doc_085,2,Emily Singh works in the Finance Analytics department.
+doc_085,3,Mei Menon is skilled in Elasticsearch and Spark.
+doc_085,4,The quarterly review will be held next week.
+doc_085,5,Divya Rossi is part of the Pulsar team.
+doc_086,0,Project Cygnus is delivered for State.
+doc_086,1,ORION is built with ClickHouse and Airflow.
+doc_086,2,"Layla Bhat leads Project Janus, which is delivered for Kestrel Retail Group."
+doc_086,3,Mateo Nair contributes to Project Europa.
+doc_087,0,Neha Clarke is part of the Rigel team.
+doc_087,1,A risk register update is due before the end of the month.
+doc_087,2,Shreya Clarke has strong experience with Spring Boot.
+doc_087,3,S. Clarke is skilled in Apache Airflow.
+doc_088,0,J. Ito is managed by P. Patel.
+doc_088,1,Meera Pillai is a member of the Cloud Infrastructure department.
+doc_088,2,HALLEY is delivered for Granite Works.
+doc_088,3,P. Bose contributes to VESTA.
+doc_088,4,"Priya Nair leads Project Apollo, which is delivered for Corvid Cargo."
+doc_088,5,Wei Patel is a member of the Customer Insights department.
+doc_089,0,Kavya Rao attended the dbt workshop.
+doc_089,1,React depends on TypeScript.
+doc_089,2,F. Morgan is skilled in Neo4j.
+doc_089,3,Docker depends on Go.
+doc_089,4,Cloud Infrastructure is based in Pune.
+doc_089,5,Cloud Infrastructure is based in Pune.
+doc_090,0,Project Kepler is delivered for Ferrous Dynamics.
+doc_090,1,Corvid Cargo is headquartered in Singapore.
+doc_090,2,Project Nebula relies on Synapse.
+doc_090,3,Mateo Wong manages T. Gupta.
+doc_090,4,Meera Roy no longer works on Project Draco.
+doc_090,5,J. Fischer works on PROTEUS.
+doc_091,0,Shreya Kulkarni has strong experience with PyTorch and MLflow.
+doc_091,1,Pooja Patel manages Amit Malhotra.
+doc_091,2,Project Proteus is being built for Aster.
+doc_091,3,R. Verma attended the dbt workshop.
+doc_092,0,A. Malhotra is skilled in React and Docker.
+doc_092,1,A. Tan is part of the Project Cygnus team.
+doc_092,2,"Farah Lim leads Project Iapetus, which is delivered for Lantern Studios."
+doc_093,0,The steering committee asked for a clearer timeline.
+doc_093,1,Manish Rao works in the Product Engineering department.
+doc_093,2,FastAPI depends on Python.
+doc_093,3,Deepak Roy is a member of the Cloud Infrastructure department.
+doc_093,4,Neo4j depends on Java.
+doc_094,0,"LARISSA relies on PyTorch, MLflow and Scala."
+doc_094,1,Priya Nair manages Elena Clarke.
+doc_094,2,Isha Rossi leads QUASAR.
+doc_094,3,Hannah Lim attended the Go workshop.
+doc_095,0,Documentation for the release candidate is incomplete.
+doc_095,1,VESTA is being built for Northgate Capital.
+doc_095,2,Spring depends on Java.
+doc_095,3,"Ananya Tan is skilled in Redis, Python and Elasticsearch."
+doc_095,4,Orbis Logistics is headquartered in Pune.
+doc_095,5,E. Clarke attended the PyTorch workshop.
+doc_096,0,Project Selene is built with HF Transformers and MLflow.
+doc_096,1,H. Khan is part of the Project Fornax team.
+doc_096,2,Isha Khan manages J. Wong.
+doc_096,3,Oberon relies on Go and Redis.
+doc_097,0,Riya Malhotra no longer works on Orion.
+doc_097,1,Pooja Roy attended the dbt workshop.
+doc_097,2,Neha Basu contributes to Project Altair.
+doc_097,3,Sneha Smith works on Project Hydra.
+doc_097,4,HF Transformers is built on PyTorch.
+doc_097,5,Tara Dutta works on Project Umbra.
+doc_098,0,Aster is headquartered in Hyderabad.
+doc_098,1,Travel plans for the offsite are still being finalised.
+doc_098,2,Rahul Verma is a member of the Customer Insights department.
+doc_098,3,F. Lim is the lead for Project Proteus.
+doc_098,4,Budget approvals are pending for the next phase.
+doc_098,5,Amit Malhotra attended the Apache Kafka workshop.
+doc_099,0,Olivia Roy mentors Nikhil Ghosh.
+doc_099,1,Travel plans for the offsite are still being finalised.
+doc_099,2,Lakshmi Joshi is part of the Project Oberon team.
+doc_099,3,Olivia Roy mentors Nikhil Ghosh.
+doc_099,4,Hiroshi Bhat leads Project Atlas.
+doc_100,0,dbt is built on SQL.
+doc_100,1,"Lyra relies on PostgreSQL, dbt and AWS S3."
+doc_100,2,Pooja Roy has strong experience with Kafka.
+doc_100,3,A. Sato leads Project Tethys.
+doc_101,0,"Olivia Roy leads Project Kepler, which is delivered for Ferrous."
+doc_101,1,Dione is built with React and Redis.
+doc_101,2,The steering committee asked for a clearer timeline.
+doc_101,3,The steering committee asked for a clearer timeline.
+doc_102,0,I. Mukherjee is managed by M. Rao.
+doc_102,1,A risk register update is due before the end of the month.
+doc_102,2,D. Rossi is a member of the Applied AI department.
+doc_102,3,Wei Patel is a member of the Customer Insights department.
+doc_102,4,Ravi Chatterjee no longer works on Project Nova.
+doc_102,5,Pooja Bose is part of the Project Pegasus team.
+doc_103,0,Mateo Nair reports to P. Patel.
+doc_103,1,"GEMINI relies on Elasticsearch, Docker and Python."
+doc_103,2,Project Elara is being built for State.
+doc_103,3,Several action items were carried over from the previous meeting.
+doc_104,0,M. Roy is the lead for Project Fornax.
+doc_104,1,Travel plans for the offsite are still being finalised.
+doc_104,2,Project Hydra uses Spark.
+doc_105,0,Documentation for the release candidate is incomplete.
+doc_105,1,Travel plans for the offsite are still being finalised.
+doc_105,2,Amit Khan contributes to Project Hyperion.
+doc_105,3,Project Fornax is being built for Corvid Cargo.
+doc_106,0,Layla Sen has strong experience with dbt.
+doc_106,1,"Project Deneb relies on ReactJS, Python and Redis."
+doc_106,2,Olivia Roy is skilled in Kubernetes.
+doc_106,3,Cygnus is being built for State Revenue Office.
+doc_106,4,"S. Kulkarni is skilled in MongoDB, Go and scikit-learn."
+doc_106,5,Riya Taylor mentors Divya Kim.
+doc_107,0,Riya Taylor mentors Divya Kim.
+doc_107,1,L. Khan no longer works on PEGASUS.
+doc_107,2,Project Tethys is delivered for Willow Diagnostics.
+doc_107,3,Rohan Roy mentors Sanjay Gupta.
+doc_107,4,Project Gemini is delivered for Metro Transit Authority.
+doc_107,5,"Meera Pillai leads Project Mira, which is delivered for Quill Industrial."
+doc_108,0,Budget approvals are pending for the next phase.
+doc_108,1,Rahul Walker attended the dbt workshop.
+doc_108,2,Sarah Rao has strong experience with BigQuery and Python.
+doc_108,3,Layla Smith is skilled in Kafka and Spark.
+doc_109,0,Travel plans for the offsite are still being finalised.
+doc_109,1,Sanjay Clarke works in the Executive Office department.
+doc_109,2,APOLLO relies on Airflow and Apache Spark.
+doc_109,3,HYPERION is being built for Willow Diagnostics.
+doc_110,0,Daniel Walker is mentored by Lucas Costa.
+doc_110,1,Layla Smith is part of the Hydra team.
+doc_110,2,M. Nair reports to Pooja Patel.
+doc_110,3,Project Elara is built with Rust.
+doc_110,4,LangChain depends on Python.
+doc_111,0,Ananya Kapoor works in the Product Engineering department.
+doc_111,1,"Meera Mukherjee leads Triton, which is delivered for Echo Street Media."
+doc_111,2,TF depends on Python.
+doc_111,3,Sofia Sato contributes to Project Altair.
+doc_111,4,"R. Roy is skilled in Postgres, XGBoost and Snowflake."
+doc_111,5,Anjali Iyer is part of the Project Triton team.
+doc_112,0,Sofia Sato is managed by Pooja Patel.
+doc_112,1,Project Apollo relies on SQL and Spark.
+doc_112,2,Manish Rao manages Kavya Rao.
+doc_113,0,M. Das is the lead for Project Vega.
+doc_113,1,Anjali Nakamura contributes to Project Fornax.
+doc_113,2,"M. Mukherjee leads LARISSA, which is delivered for Kestrel Retail Group."
+doc_113,3,Aditya Ghosh is skilled in Kubernetes.
+doc_113,4,"A. Sato leads Project Tethys, which is delivered for Willow Diagnostics."
+doc_114,0,Sirius relies on Postgres.
+doc_114,1,Project Janus is being built for Kestrel Retail Group.
+doc_114,2,Project Umbra relies on Snowflake.
+doc_114,3,Spark depends on Scala.
+doc_115,0,Project Elara is built with Elasticsearch and Python.
+doc_115,1,Pooja Bose contributes to Project Vesta.
+doc_115,2,Riya Taylor works in the Applied AI department.
+doc_115,3,Emily Nakamura works on Project Kepler.
+doc_116,0,Meera Pillai leads Project Halley.
+doc_116,1,Project Cygnus is being built for State Revenue Office.
+doc_116,2,Project Draco uses Golang.
+doc_116,3,Sanjay Roy is mentored by A. Nguyen.
+doc_116,4,Amit Khan attended the Neo4j workshop.
+doc_116,5,Riya Taylor no longer works on Project Pulsar.
+doc_117,0,Isha Khan manages Meera Mukherjee.
+doc_117,1,"Project Orion is built with dbt, Spring Boot and ClickHouse."
+doc_117,2,P. Verma attended the AWS S3 workshop.
+doc_117,3,Rohan Roy leads Project Sirius.
+doc_117,4,The steering committee asked for a clearer timeline.
+doc_117,5,Executive Office is based in Bangalore.
+doc_118,0,"Imran Chatterjee leads Helios, which is delivered for Sterling Ridge Bank."
+doc_118,1,P. Roy contributes to Apollo.
+doc_118,2,Project Janus is being built for Kestrel.
+doc_118,3,"F. Lim leads Project Proteus, which is delivered for Aster Care Systems."
+doc_118,4,Verdant Foods is headquartered in London.
+doc_118,5,HELIOS uses Python and MLflow.
+doc_119,0,A. Nguyen is the lead for Project Altair.
+doc_119,1,Rahul Haddad works on Lyra.
+doc_119,2,Kestrel Retail Group is headquartered in Singapore.
+doc_119,3,Cloud Infrastructure is based in Pune.
+doc_119,4,Documentation for the release candidate is incomplete.
+doc_119,5,The quarterly review will be held next week.
+doc_120,0,Selene is built with HF Transformers.
+doc_120,1,Rahul Shetty is part of the MIRA team.
+doc_120,2,Customer Insights is based in Toronto.
+doc_120,3,Project Draco is delivered for Civic Registry Board.
+doc_121,0,Finance Analytics is based in London.
+doc_121,1,A. Sato reports to Manish Rao.
+doc_121,2,"Pooja Bose leads Project Rigel, which is delivered for Cobalt Life."
+doc_121,3,Hannah Lim is skilled in Google BigQuery and SQL.
+doc_121,4,Hiroshi Bhat has strong experience with Apache Kafka and S3.
+doc_122,0,"Pegasus relies on SQL, XGBoost and Python."
+doc_122,1,Aditya Ghosh attended the FastAPI workshop.
+doc_122,2,Ananya Rao works in the Data Platform department.
+doc_123,0,Sterling is headquartered in Toronto.
+doc_123,1,Atlas uses Postgres and ClickHouse.
+doc_123,2,Rhea is built with Django.
+doc_123,3,"L. Bhat is skilled in PostgreSQL, LangChain and BigQuery."
+doc_123,4,Rahul Iyer contributes to Project Zenith.
+doc_123,5,"Tara Gupta is skilled in TS, Redis and Spring Boot."
+doc_124,0,DENEB relies on React and Redis.
+doc_124,1,Project Kepler uses Synapse.
+doc_124,2,Farah Lim leads Project Iapetus.
+doc_124,3,"Rahul Verma leads Project Callisto, which is delivered for Lantern Studios."
+doc_124,4,H. Clarke is managed by Isha Khan.
+doc_124,5,Project Helios relies on dbt and Python.
+doc_125,0,Mei Evans is a member of the Research department.
+doc_125,1,Aditya Ghosh is part of the Project Kepler team.
+doc_125,2,Isha Mukherjee attended the Cassandra workshop.
+doc_125,3,Wei Patel contributes to Project Bellatrix.
+doc_125,4,Project Selene is built with Neo4j.
+doc_126,0,Neha Basu contributes to Project Cygnus.
+doc_126,1,R. Chatterjee manages Mei Menon.
+doc_126,2,sklearn depends on Python.
+doc_126,3,Project Titan uses Cassandra.
+doc_127,0,Priya Verma has strong experience with Postgres and TypeScript.
+doc_127,1,I. Chatterjee works on Project Triton.
+doc_127,2,Linh Khan is part of the Project Rigel team.
+doc_127,3,Several action items were carried over from the previous meeting.
+doc_128,0,M. Das works on Lyra.
+doc_128,1,S. Smith attended the Apache Cassandra workshop.
+doc_128,2,Northgate Capital is headquartered in Singapore.
+doc_129,0,"L. Kim has strong experience with dbt, AWS S3 and scikit-learn."
+doc_129,1,Isha Khan manages J. Wong.
+doc_129,2,Divya Kim is mentored by R. Taylor.
+doc_129,3,Budget approvals are pending for the next phase.
+doc_130,0,"Hiroshi Bhat has strong experience with SQL, AWS S3 and Kafka."
+doc_130,1,Rahul Haddad works in the Data Platform department.
+doc_130,2,Ardent Assurance is headquartered in Pune.
+doc_130,3,Pooja Nair is mentored by M. Pillai.
+doc_131,0,Emily Singh is skilled in Snowflake.
+doc_131,1,"Kavya Rao is skilled in TypeScript, Elasticsearch and Kubernetes."
+doc_131,2,R. Chatterjee manages M. Menon.
+doc_132,0,LangChain depends on Python.
+doc_132,1,I. Chatterjee is the lead for Project Aurora.
+doc_132,2,Meera Mukherjee has strong experience with Python and Django.
+doc_132,3,M. Rao leads Project Rhea.
+doc_133,0,Riya Malhotra mentors Lakshmi Kim.
+doc_133,1,Project Sirius is delivered for Echo Street Media.
+doc_133,2,Project Callisto is delivered for Lantern Studios.
+doc_133,3,Divya Kim works on Project Quasar.
+doc_133,4,Wei Patel works on Project Bellatrix.
+doc_134,0,Hiroshi Bhat manages Rahul Haddad.
+doc_134,1,Nova is being built for Lumen Health Network.
+doc_134,2,"Manish Rao leads Project Rhea, which is delivered for Ardent Assurance."
+doc_135,0,Mateo Bhat contributes to Project Mira.
+doc_135,1,Project Oberon is delivered for State.
+doc_135,2,Ravi Malhotra attended the Scala workshop.
+doc_136,0,Cobalt Life is headquartered in Bengaluru.
+doc_136,1,M. Nair is mentored by N. Basu.
+doc_136,2,Rahul Clarke is part of the Project Janus team.
+doc_136,3,dbt is built on SQL.
+doc_136,4,Nikhil Ghosh is mentored by Olivia Roy.
+doc_136,5,M. Das is a member of the Data Platform department.
+doc_137,0,Vesta is being built for Northgate.
+doc_137,1,Meera Roy has strong experience with Kubernetes.
+doc_137,2,Priya Nair is the lead for Orion.
+doc_137,3,Prism is headquartered in Toronto.
+doc_137,4,"Mira uses Scala, Docker and Golang."
+doc_138,0,"Project Tethys is built with Apache Cassandra, Spring Boot and Java."
+doc_138,1,L. Bhat leads Project Janus.
+doc_138,2,Isha Rossi works on Project Helios.
+doc_138,3,"Amit Malhotra is skilled in Spring Boot, Google BigQuery and TypeScript."
+doc_139,0,Mateo Sato is the lead for ELARA.
+doc_139,1,Amit Mukherjee mentors Tara Gupta.
+doc_139,2,Mateo Nair is mentored by Neha Basu.
+doc_140,0,J. Khan is managed by Manish Rao.
+doc_140,1,XGBoost is built on Python.
+doc_140,2,State Revenue Office is headquartered in Pune.
+doc_140,3,Sanjay Gupta contributes to Project Vesta.
+doc_140,4,Project Quasar relies on ClickHouse and TensorFlow.
+doc_140,5,Imran Nguyen is part of the Project Rhea team.
+doc_141,0,M. Rao is managed by Sanjay Clarke.
+doc_141,1,D. Rossi is part of the Project Aurora team.
+doc_141,2,"Sarah Rao leads Project Deneb, which is delivered for Lantern Studios."
+doc_141,3,Farah Lim is the lead for IAPETUS.
+doc_141,4,Executive Office is based in Bengaluru.
+doc_142,0,L. Joshi mentors N. Clarke.
+doc_142,1,Thomas Kim is managed by Ravi Chatterjee.
+doc_142,2,Project Zenith uses PyTorch.
+doc_142,3,"Project Draco relies on Go, Terraform and Python."
+doc_142,4,Manish Rao manages M. Wong.
+doc_143,0,Amit Khan has strong experience with Java.
+doc_143,1,Thomas Kim manages S. Rossi.
+doc_143,2,Docker is built on Golang.
+doc_143,3,Mateo Sato attended the Snowflake workshop.
+doc_144,0,R. Clarke reports to I. Khan.
+doc_144,1,Thomas Kapoor has strong experience with Python.
+doc_144,2,Meera Roy works on Project Draco.
+doc_144,3,Thomas Kapoor is mentored by Hannah Lim.
+doc_145,0,Manish Rao manages J. Khan.
+doc_145,1,"Project Pegasus is built with PyTorch, Python and Snowflake."
+doc_145,2,Lakshmi Joshi contributes to Elara.
+doc_145,3,E. Nakamura works in the Customer Insights department.
+doc_146,0,L. Ghosh is part of the Project Mira team.
+doc_146,1,Daniel Walker has strong experience with Python.
+doc_146,2,"Meera Das leads Project Lyra, which is delivered for Maple."
+doc_146,3,PyTorch depends on Python.
+doc_147,0,Project Europa relies on TypeScript and React.
+doc_147,1,Project Altair uses Golang.
+doc_147,2,Amit Mukherjee is part of the Project Phoebe team.
+doc_147,3,Rahul Verma leads Callisto.
+doc_147,4,Altair is delivered for Maple and Mint Stores.
+doc_147,5,Apollo is delivered for Corvid Cargo.
+doc_148,0,The steering committee asked for a clearer timeline.
+doc_148,1,The steering committee asked for a clearer timeline.
+doc_148,2,TF depends on Python.
+doc_148,3,Project Vesta is being built for Northgate Capital.
+doc_149,0,Hiroshi Bhat is managed by Priya Nair.
+doc_149,1,Isha Khan mentors O. Clarke.
+doc_149,2,Rahul Iyer works on Project Zenith.
+doc_149,3,The quarterly review will be held next week.
+doc_149,4,James Khan is a member of the Product Engineering department.
+doc_149,5,"Project Halley is built with Synapse, Docker and TensorFlow."
+doc_150,0,Anjali Nakamura attended the BigQuery workshop.
+doc_150,1,Travel plans for the offsite are still being finalised.
+doc_150,2,Mateo Nair is skilled in Terraform and dbt.
+doc_150,3,Ravi Malhotra works in the Data Platform department.
+doc_150,4,Amit Khan is a member of the Product Engineering department.
+doc_151,0,Shreya Kulkarni works on Project Pulsar.
+doc_151,1,"S. Kulkarni has strong experience with scikit-learn, Docker and Mongo."
+doc_151,2,Mei Evans is managed by Isha Khan.
+doc_151,3,Project Phoebe relies on Spring Boot.
+doc_151,4,The steering committee asked for a clearer timeline.
+doc_152,0,"Pulsar is built with scikit-learn, Elastic and Rust."
+doc_152,1,Tara Gupta has strong experience with Redis and ReactJS.
+doc_152,2,M. Nair works on Deneb.
+doc_152,3,React is built on TypeScript.
+doc_153,0,Layla Bhat works on Project Apollo.
+doc_153,1,Altair relies on scikit-learn.
+doc_153,2,James Wong has strong experience with Rust.
+doc_153,3,Sarah Reddy is part of the Project Orion team.
+doc_154,0,Several action items were carried over from the previous meeting.
+doc_154,1,Documentation for the release candidate is incomplete.
+doc_154,2,Django depends on Python.
+doc_154,3,Olivia Roy mentors Rahul Shetty.
+doc_154,4,Cybersecurity is based in Pune.
+doc_154,5,Riya Malhotra mentors Lakshmi Kim.
+doc_155,0,James Khan is skilled in PostgreSQL.
+doc_155,1,A. Mukherjee mentors T. Gupta.
+doc_155,2,Mateo Bhat is managed by Anjali Nguyen.
+doc_156,0,Olivia Roy works in the Cloud Infrastructure department.
+doc_156,1,Hiroshi Clarke contributes to Project Proteus.
+doc_156,2,The quarterly review will be held next week.
+doc_156,3,Project Oberon is being built for State Revenue Office.
+doc_156,4,Layla Ghosh leads Project Nebula.
+doc_157,0,Willow is headquartered in Singapore.
+doc_157,1,I. Khan mentors O. Clarke.
+doc_157,2,"Meera Das leads Project Vega, which is delivered for Orbis."
+doc_158,0,Rohan Verma has strong experience with PostgreSQL.
+doc_158,1,A risk register update is due before the end of the month.
+doc_158,2,Budget approvals are pending for the next phase.
+doc_158,3,Sanjay Gupta is part of the Umbra team.
+doc_158,4,A. Rao reports to Priya Nair.
+doc_159,0,Pegasus is delivered for Halcyon Bank.
+doc_159,1,Spring Boot depends on Java.
+doc_159,2,Ravi Chatterjee contributes to Project Zenith.
+doc_159,3,A risk register update is due before the end of the month.
+doc_159,4,Sneha Kulkarni manages Neha Clarke.
+doc_159,5,Project Sirius uses PostgreSQL and Snowflake.
+doc_160,0,Lakshmi Joshi mentors N. Clarke.
+doc_160,1,"Anjali Nguyen leads Vesta, which is delivered for Northgate."
+doc_160,2,R. Malhotra is skilled in SQL.
+doc_160,3,Meera Roy is part of the Project Draco team.
+doc_160,4,Lakshmi Kim has strong experience with S3.

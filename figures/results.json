@@ -1,0 +1,270 @@
+{
+  "data": {
+    "entities": 241,
+    "triples": 1332,
+    "relations": 10
+  },
+  "degree": {
+    "max": 52,
+    "median": 9.0,
+    "top_hub": "Python"
+  },
+  "rdfs": {
+    "triples_before": 1825,
+    "triples_after": 2007,
+    "tech_before": 0,
+    "tech_after": 37,
+    "works_on_before": 204,
+    "works_on_after": 229
+  },
+  "validation": {
+    "flagged": 90,
+    "precision": 0.989,
+    "recall": 0.989,
+    "per_type_recall": {
+      "cycle": 1.0,
+      "domain": 1.0,
+      "functional": 1.0,
+      "mutual": 0.833,
+      "range": 1.0,
+      "self_loop": 1.0
+    },
+    "false_positives": 1
+  },
+  "er_blocking": {
+    "records": 374,
+    "all_pairs": 69751,
+    "candidate_pairs": 676,
+    "reduction_ratio": 0.9903,
+    "pair_completeness": 1.0
+  },
+  "er": {
+    "threshold": 0.66,
+    "pair_best": {
+      "precision": 0.991,
+      "recall": 0.994,
+      "f1": 0.993
+    },
+    "components": [
+      0.971,
+      0.994,
+      0.983
+    ],
+    "cannot_link": [
+      1.0,
+      0.994,
+      0.997
+    ],
+    "impure_clusters": 2
+  },
+  "extraction": {
+    "v1": {
+      "precision": 0.981,
+      "recall": 0.882,
+      "f1": 0.929,
+      "extracted": 773,
+      "correct": 758
+    },
+    "v2": {
+      "precision": 1.0,
+      "recall": 0.882,
+      "f1": 0.938,
+      "extracted": 758,
+      "correct": 758
+    },
+    "fp_v1": 15,
+    "fn_v1": 101,
+    "linking_failures": 101,
+    "pattern_failures": 0,
+    "kg_unique": 533,
+    "kg_precision": 1.0,
+    "kg_coverage": 0.4
+  },
+  "analytics": {
+    "people": 117,
+    "edges": 454,
+    "communities": 8,
+    "ari": 0.602,
+    "nmi": 0.708,
+    "cross_dept_share": 0.317,
+    "top_bridge": "Amit Khan",
+    "top_bridge_dept": "Product Engineering"
+  },
+  "impact": {
+    "top": "Python",
+    "affected": 32,
+    "direct": 14,
+    "total_projects": 45
+  },
+  "kge": {
+    "Random|all entities": {
+      "MRR": 0.018,
+      "Hits@1": 0.004,
+      "Hits@3": 0.004,
+      "Hits@10": 0.019,
+      "MR": 122.838,
+      "MRR_std": 0.0
+    },
+    "Popularity|all entities": {
+      "MRR": 0.111,
+      "Hits@1": 0.041,
+      "Hits@3": 0.09,
+      "Hits@10": 0.263,
+      "MR": 51.043,
+      "MRR_std": 0.0
+    },
+    "DistMult|all entities": {
+      "MRR": 0.229,
+      "Hits@1": 0.127,
+      "Hits@3": 0.234,
+      "Hits@10": 0.454,
+      "MR": 36.331,
+      "MRR_std": 0.016
+    },
+    "TransE|all entities": {
+      "MRR": 0.314,
+      "Hits@1": 0.163,
+      "Hits@3": 0.36,
+      "Hits@10": 0.664,
+      "MR": 12.472,
+      "MRR_std": 0.007
+    },
+    "Random|typed": {
+      "MRR": 0.098,
+      "Hits@1": 0.03,
+      "Hits@3": 0.075,
+      "Hits@10": 0.222,
+      "MR": 34.391,
+      "MRR_std": 0.0
+    },
+    "Popularity|typed": {
+      "MRR": 0.113,
+      "Hits@1": 0.041,
+      "Hits@3": 0.09,
+      "Hits@10": 0.263,
+      "MR": 37.414,
+      "MRR_std": 0.0
+    },
+    "DistMult|typed": {
+      "MRR": 0.278,
+      "Hits@1": 0.149,
+      "Hits@3": 0.293,
+      "Hits@10": 0.55,
+      "MR": 16.563,
+      "MRR_std": 0.013
+    },
+    "TransE|typed": {
+      "MRR": 0.314,
+      "Hits@1": 0.163,
+      "Hits@3": 0.362,
+      "Hits@10": 0.664,
+      "MR": 12.431,
+      "MRR_std": 0.007
+    }
+  },
+  "kge_by_relation": [
+    {
+      "relation": "works_in",
+      "cases": 16,
+      "MRR": 0.958,
+      "hits10": 1.0
+    },
+    {
+      "relation": "reports_to",
+      "cases": 20,
+      "MRR": 0.505,
+      "hits10": 1.0
+    },
+    {
+      "relation": "leads",
+      "cases": 6,
+      "MRR": 0.338,
+      "hits10": 1.0
+    },
+    {
+      "relation": "uses_tech",
+      "cases": 38,
+      "MRR": 0.328,
+      "hits10": 0.789
+    },
+    {
+      "relation": "works_on",
+      "cases": 38,
+      "MRR": 0.303,
+      "hits10": 0.737
+    },
+    {
+      "relation": "has_skill",
+      "cases": 122,
+      "MRR": 0.209,
+      "hits10": 0.525
+    },
+    {
+      "relation": "depends_on",
+      "cases": 8,
+      "MRR": 0.176,
+      "hits10": 0.5
+    },
+    {
+      "relation": "located_in",
+      "cases": 6,
+      "MRR": 0.17,
+      "hits10": 0.5
+    },
+    {
+      "relation": "delivered_for",
+      "cases": 10,
+      "MRR": 0.153,
+      "hits10": 0.4
+    },
+    {
+      "relation": "mentors",
+      "cases": 2,
+      "MRR": 0.117,
+      "hits10": 0.5
+    }
+  ],
+  "kge_structure": {
+    "knn_purity": 0.993,
+    "chance": 0.128
+  },
+  "qa": {
+    "by_hops": {
+      "1": {
+        "A_text": 0.467,
+        "B_graph_from_text": 0.69,
+        "C_curated": 1.0
+      },
+      "2": {
+        "A_text": 0.112,
+        "B_graph_from_text": 0.207,
+        "C_curated": 1.0
+      },
+      "3": {
+        "A_text": 0.0,
+        "B_graph_from_text": 0.26,
+        "C_curated": 1.0
+      },
+      "all": {
+        "A_text": 0.28,
+        "B_graph_from_text": 0.453,
+        "C_curated": 1.0
+      }
+    },
+    "recall_all": {
+      "A": 0.316,
+      "B": 0.405,
+      "C": 1.0
+    },
+    "ablation": {
+      "questions": 20,
+      "with_inference": 1.0,
+      "without": 0.953
+    },
+    "parser_accuracy": 1.0
+  },
+  "rag_context": {
+    "naive_facts": 235,
+    "guided_facts": 6
+  }
+}

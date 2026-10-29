@@ -1,0 +1,860 @@
+doc_id,sent_idx,head_id,relation,tail_id,head_surface,tail_surface
+doc_001,0,prj_34,uses_tech,tec_26,Project Europa,Google BigQuery
+doc_001,1,per_097,works_on,prj_31,Sofia Sato,Project Bellatrix
+doc_001,2,tec_18,depends_on,tec_06,ReactJS,TS
+doc_002,1,per_036,has_skill,tec_32,E. Kulkarni,TensorFlow
+doc_002,1,per_036,has_skill,tec_04,E. Kulkarni,Rust
+doc_002,2,per_097,works_in,dep_06,Sofia Sato,Customer Insights
+doc_002,3,per_038,mentors,per_054,P. Nair,R. Malhotra
+doc_002,4,per_011,has_skill,tec_19,O. Clarke,Spark
+doc_002,4,per_011,has_skill,tec_14,O. Clarke,Elasticsearch
+doc_002,4,per_011,has_skill,tec_32,O. Clarke,TF
+doc_002,5,prj_08,uses_tech,tec_35,Project Selene,Hugging Face Transformers
+doc_002,5,prj_08,uses_tech,tec_10,Project Selene,Neo4j
+doc_003,0,per_053,reports_to,per_043,Aditya Patel,Pooja Patel
+doc_003,2,prj_09,uses_tech,tec_14,Project Nova,Elasticsearch
+doc_003,2,prj_09,uses_tech,tec_34,Project Nova,MLflow
+doc_003,2,prj_09,uses_tech,tec_26,Project Nova,BigQuery
+doc_004,0,tec_10,depends_on,tec_02,Neo4j,Java
+doc_004,2,per_076,reports_to,per_114,Olivia Roy,Layla Ghosh
+doc_004,3,tec_22,depends_on,tec_05,dbt,SQL
+doc_005,0,per_026,leads,prj_25,P. Bose,Project Rigel
+doc_005,0,prj_25,delivered_for,cli_09,Project Rigel,Cobalt
+doc_005,1,tec_34,depends_on,tec_01,MLflow,Python
+doc_005,2,per_008,works_on,prj_36,James Khan,Project Hyperion
+doc_006,3,prj_41,uses_tech,tec_18,Project Dione,ReactJS
+doc_006,3,prj_41,uses_tech,tec_11,Project Dione,Redis
+doc_006,4,per_026,has_skill,tec_07,Pooja Bose,Scala
+doc_006,4,per_026,has_skill,tec_37,Pooja Bose,XGBoost
+doc_006,4,per_026,has_skill,tec_32,Pooja Bose,TensorFlow
+doc_007,0,cli_06,located_in,cty_06,Sterling Ridge Bank,Toronto
+doc_007,1,prj_45,uses_tech,tec_01,Project Larissa,Python
+doc_007,1,prj_45,uses_tech,tec_31,Project Larissa,PyTorch
+doc_007,2,prj_15,delivered_for,cli_21,Project Draco,Civic Registry Board
+doc_008,0,per_051,works_in,dep_08,A. Iyer,Research
+doc_008,2,per_076,has_skill,tec_24,Olivia Roy,Lambda
+doc_008,2,per_076,has_skill,tec_25,Olivia Roy,Azure Synapse
+doc_008,2,per_076,has_skill,tec_03,Olivia Roy,Go
+doc_009,1,per_067,works_in,dep_01,Riya Malhotra,Data Platform
+doc_009,2,per_063,has_skill,tec_09,Sneha Kulkarni,MongoDB
+doc_009,2,per_063,has_skill,tec_33,Sneha Kulkarni,sklearn
+doc_009,3,per_025,mentors,per_027,Riya Taylor,Divya Kim
+doc_009,4,per_045,has_skill,tec_15,L. Bhat,Django
+doc_009,4,per_045,has_skill,tec_20,L. Bhat,Airflow
+doc_009,5,per_108,has_skill,tec_15,James Wong,Django
+doc_009,5,per_108,has_skill,tec_32,James Wong,TensorFlow
+doc_010,0,per_072,reports_to,per_038,Meera Das,P. Nair
+doc_010,1,per_104,has_skill,tec_10,H. Walker,Neo4j
+doc_010,2,per_095,works_on,prj_28,Rohan Roy,Umbra
+doc_010,4,per_095,leads,prj_28,Rohan Roy,Project Umbra
+doc_010,4,prj_28,delivered_for,cli_07,Project Umbra,Ardent
+doc_010,5,per_072,reports_to,per_038,M. Das,Priya Nair
+doc_011,0,per_117,has_skill,tec_10,Thomas Kim,Neo4j
+doc_011,0,per_117,has_skill,tec_16,Thomas Kim,FastAPI
+doc_011,1,per_116,reports_to,per_114,N. Ghosh,L. Ghosh
+doc_011,2,per_015,works_on,prj_20,Farah Morgan,Project Kepler
+doc_011,3,per_114,leads,prj_22,Layla Ghosh,NEBULA
+doc_011,3,prj_22,delivered_for,cli_17,NEBULA,Quill
+doc_011,4,per_062,mentors,per_009,Lakshmi Joshi,N. Clarke
+doc_011,5,per_038,leads,prj_06,Priya Nair,Project Apollo
+doc_012,1,per_065,works_on,prj_41,T. Gupta,Project Dione
+doc_012,2,per_051,reports_to,per_019,A. Iyer,Isha Khan
+doc_012,3,per_104,works_on,prj_11,Hiroshi Walker,Project Quasar
+doc_013,0,prj_22,uses_tech,tec_10,Project Nebula,Neo4j
+doc_013,0,prj_22,uses_tech,tec_11,Project Nebula,Redis
+doc_013,1,per_090,works_in,dep_08,Sanjay Walker,Research
+doc_013,2,per_057,leads,prj_14,Meera Roy,CYGNUS
+doc_013,3,prj_29,delivered_for,cli_05,Project Vesta,Northgate
+doc_014,0,per_120,has_skill,tec_32,Kavya Smith,TensorFlow
+doc_014,1,per_091,works_in,dep_04,Rahul Shetty,Cloud Infrastructure
+doc_014,2,prj_06,delivered_for,cli_15,Project Apollo,Corvid
+doc_014,3,per_063,has_skill,tec_30,Sneha Kulkarni,Docker
+doc_014,3,per_063,has_skill,tec_09,Sneha Kulkarni,Mongo
+doc_014,3,per_063,has_skill,tec_03,Sneha Kulkarni,Go
+doc_015,0,per_067,mentors,per_075,Riya Malhotra,L. Kim
+doc_015,1,prj_05,uses_tech,tec_19,Project Hydra,Spark
+doc_015,1,prj_05,uses_tech,tec_22,Project Hydra,dbt
+doc_015,2,prj_04,uses_tech,tec_13,LYRA,ClickHouse
+doc_015,2,prj_04,uses_tech,tec_21,LYRA,Apache Kafka
+doc_015,2,prj_04,uses_tech,tec_22,LYRA,dbt
+doc_015,3,tec_18,depends_on,tec_06,React,TypeScript
+doc_015,4,per_017,works_on,prj_29,S. Gupta,Project Vesta
+doc_016,0,per_049,has_skill,tec_10,Sanjay Rossi,Neo4j
+doc_016,0,per_049,has_skill,tec_26,Sanjay Rossi,BigQuery
+doc_016,0,per_049,has_skill,tec_34,Sanjay Rossi,MLflow
+doc_016,1,per_037,has_skill,tec_11,M. Bose,Redis
+doc_016,1,per_037,has_skill,tec_15,M. Bose,Django
+doc_016,2,per_059,works_in,dep_02,Divya Rossi,Applied AI
+doc_017,0,per_076,mentors,per_091,Olivia Roy,Rahul Shetty
+doc_017,1,per_020,has_skill,tec_30,Chen Fischer,Docker
+doc_017,1,per_020,has_skill,tec_21,Chen Fischer,Apache Kafka
+doc_017,1,per_020,has_skill,tec_14,Chen Fischer,Elastic
+doc_017,2,cli_13,located_in,cty_02,Orbis Logistics,Pune
+doc_017,3,per_043,has_skill,tec_01,P. Patel,Python
+doc_017,3,per_043,has_skill,tec_26,P. Patel,Google BigQuery
+doc_017,3,per_043,has_skill,tec_22,P. Patel,dbt
+doc_017,4,prj_15,uses_tech,tec_29,Draco,Terraform
+doc_017,5,per_110,leads,prj_33,Sarah Rao,DENEB
+doc_018,0,prj_33,delivered_for,cli_24,Project Deneb,Lantern Studios
+doc_018,1,per_095,works_in,dep_05,Rohan Roy,Finance Analytics
+doc_018,2,per_067,has_skill,tec_22,Riya Malhotra,dbt
+doc_019,0,prj_25,uses_tech,tec_08,Project Rigel,Postgres
+doc_019,2,per_112,mentors,per_115,Neha Basu,Mateo Nair
+doc_019,3,prj_06,uses_tech,tec_19,Project Apollo,Spark
+doc_019,3,prj_06,uses_tech,tec_20,Project Apollo,Airflow
+doc_019,3,prj_06,uses_tech,tec_27,Project Apollo,Snowflake
+doc_019,4,tec_20,depends_on,tec_01,Airflow,Python
+doc_020,0,per_072,works_on,prj_06,M. Das,Apollo
+doc_020,1,per_072,leads,prj_04,M. Das,LYRA
+doc_020,2,per_027,works_on,prj_11,Divya Kim,Project Quasar
+doc_020,3,per_103,has_skill,tec_19,Ananya Rao,Spark
+doc_020,3,per_103,has_skill,tec_08,Ananya Rao,PostgreSQL
+doc_020,3,per_103,has_skill,tec_21,Ananya Rao,Kafka
+doc_020,4,per_101,has_skill,tec_18,James Ito,React
+doc_020,4,per_101,has_skill,tec_14,James Ito,Elastic
+doc_020,4,per_101,has_skill,tec_32,James Ito,TensorFlow
+doc_021,0,per_029,leads,prj_27,Linh Khan,Project Titan
+doc_021,1,per_017,reports_to,per_048,Sanjay Gupta,Anjali Nguyen
+doc_021,2,tec_16,depends_on,tec_01,FastAPI,Python
+doc_021,3,prj_04,delivered_for,cli_03,Project Lyra,Maple
+doc_022,0,prj_39,uses_tech,tec_23,PHOEBE,AWS S3
+doc_022,0,prj_39,uses_tech,tec_25,PHOEBE,Synapse
+doc_022,0,prj_39,uses_tech,tec_02,PHOEBE,Java
+doc_022,1,per_095,mentors,per_046,Rohan Roy,Mateo Bhat
+doc_022,2,per_021,leads,prj_09,R. Chatterjee,Nova
+doc_022,2,prj_09,delivered_for,cli_10,Nova,Lumen Health Network
+doc_022,3,cli_06,located_in,cty_06,Sterling,Toronto
+doc_022,5,prj_01,uses_tech,tec_25,Project Atlas,Synapse
+doc_022,5,prj_01,uses_tech,tec_20,Project Atlas,Airflow
+doc_023,0,per_117,mentors,per_118,Thomas Kim,Layla Sen
+doc_023,1,tec_33,depends_on,tec_01,scikit-learn,Python
+doc_023,2,prj_32,uses_tech,tec_06,Callisto,TypeScript
+doc_023,3,per_061,works_in,dep_05,Sanjay Roy,Finance Analytics
+doc_023,4,tec_19,depends_on,tec_07,Spark,Scala
+doc_023,5,per_038,leads,prj_02,P. Nair,Project Orion
+doc_023,5,prj_02,delivered_for,cli_13,Project Orion,Orbis Logistics
+doc_024,0,per_095,leads,prj_24,R. Roy,Project Pegasus
+doc_024,0,prj_24,delivered_for,cli_04,Project Pegasus,Halcyon
+doc_024,1,per_095,leads,prj_26,R. Roy,Project Sirius
+doc_024,1,prj_26,delivered_for,cli_23,Project Sirius,Echo Street Media
+doc_024,2,tec_20,depends_on,tec_01,Airflow,Python
+doc_024,3,per_050,has_skill,tec_17,E. Mukherjee,Spring Boot
+doc_024,4,prj_12,delivered_for,cli_05,Project Zenith,Northgate
+doc_024,5,tec_37,depends_on,tec_01,XGBoost,Python
+doc_025,0,prj_08,delivered_for,cli_16,Selene,Ferrous Dynamics
+doc_025,1,prj_10,uses_tech,tec_31,Project Pulsar,PyTorch
+doc_025,3,prj_12,delivered_for,cli_05,Project Zenith,Northgate Capital
+doc_025,4,tec_30,depends_on,tec_03,Docker,Go
+doc_025,5,per_078,leads,prj_30,Aarav Nguyen,Altair
+doc_026,0,per_042,reports_to,per_005,M. Wong,Manish Rao
+doc_026,1,prj_18,uses_tech,tec_01,Gemini,Python
+doc_026,1,prj_18,uses_tech,tec_21,Gemini,Kafka
+doc_026,1,prj_18,uses_tech,tec_30,Gemini,Docker
+doc_026,2,per_118,has_skill,tec_16,Layla Sen,FastAPI
+doc_027,1,per_082,reports_to,per_042,Amit Mukherjee,Mateo Wong
+doc_027,2,per_108,has_skill,tec_01,J. Wong,Python
+doc_027,3,tec_32,depends_on,tec_01,TF,Python
+doc_027,4,prj_22,uses_tech,tec_25,Project Nebula,Azure Synapse
+doc_028,0,per_025,leads,prj_10,R. Taylor,Pulsar
+doc_028,0,prj_10,delivered_for,cli_11,Pulsar,Aster Care Systems
+doc_028,1,prj_02,delivered_for,cli_13,Project Orion,Orbis
+doc_028,2,tec_31,depends_on,tec_01,PyTorch,Python
+doc_028,3,dep_08,located_in,cty_04,Research,Singapore
+doc_028,4,prj_17,uses_tech,tec_01,Project Fornax,Python
+doc_028,4,prj_17,uses_tech,tec_14,Project Fornax,Elasticsearch
+doc_029,0,tec_31,depends_on,tec_01,PyTorch,Python
+doc_029,1,per_054,has_skill,tec_18,R. Malhotra,React
+doc_029,3,per_014,reports_to,per_096,R. Verma,Hiroshi Bhat
+doc_029,5,per_065,works_on,prj_41,T. Gupta,Project Dione
+doc_030,0,per_042,leads,prj_36,M. Wong,Project Hyperion
+doc_030,1,per_076,mentors,per_091,Olivia Roy,Rahul Shetty
+doc_030,2,per_055,reports_to,per_063,Ananya Tan,Sneha Kulkarni
+doc_031,0,per_068,has_skill,tec_23,Isha Mukherjee,S3
+doc_031,0,per_068,has_skill,tec_17,Isha Mukherjee,Spring Boot
+doc_031,1,per_014,works_on,prj_02,R. Verma,Orion
+doc_031,2,tec_14,depends_on,tec_02,Elastic,Java
+doc_031,3,per_104,has_skill,tec_10,Hiroshi Walker,Neo4j
+doc_031,3,per_104,has_skill,tec_35,Hiroshi Walker,Hugging Face Transformers
+doc_032,0,per_081,works_on,prj_24,Chen Sharma,Project Pegasus
+doc_032,2,prj_33,uses_tech,tec_18,Project Deneb,React
+doc_032,2,prj_33,uses_tech,tec_01,Project Deneb,Python
+doc_032,3,prj_34,delivered_for,cli_24,Project Europa,Lantern
+doc_033,0,cli_09,located_in,cty_01,Cobalt Life,Bengaluru
+doc_033,1,per_074,reports_to,per_021,Sarah Smith,Ravi Chatterjee
+doc_033,2,per_090,reports_to,per_019,Sanjay Walker,Isha Khan
+doc_033,3,per_076,mentors,per_116,Olivia Roy,Nikhil Ghosh
+doc_034,0,per_003,reports_to,per_001,Sanjay Clarke,Yuki Tan
+doc_034,1,tec_22,depends_on,tec_05,dbt,SQL
+doc_034,3,per_111,has_skill,tec_08,Hannah Lim,Postgres
+doc_034,3,per_111,has_skill,tec_01,Hannah Lim,Python
+doc_034,4,cli_19,located_in,cty_05,Metro,London
+doc_035,0,prj_28,uses_tech,tec_01,Umbra,Python
+doc_035,0,prj_28,uses_tech,tec_05,Umbra,SQL
+doc_035,1,per_103,leads,prj_05,A. Rao,Project Hydra
+doc_036,0,per_118,works_in,dep_02,L. Sen,Applied AI
+doc_036,1,prj_01,uses_tech,tec_25,Project Atlas,Azure Synapse
+doc_036,1,prj_01,uses_tech,tec_13,Project Atlas,ClickHouse
+doc_036,1,prj_01,uses_tech,tec_20,Project Atlas,Airflow
+doc_036,2,tec_07,depends_on,tec_02,Scala,Java
+doc_036,3,per_037,has_skill,tec_29,Mateo Bose,Terraform
+doc_036,4,per_062,mentors,per_009,L. Joshi,Neha Clarke
+doc_036,5,per_030,works_on,prj_13,Imran Chatterjee,AURORA
+doc_037,0,per_053,reports_to,per_043,A. Patel,P. Patel
+doc_037,1,per_113,leads,prj_31,Emily Nakamura,BELLATRIX
+doc_037,1,prj_31,delivered_for,cli_02,BELLATRIX,Kestrel
+doc_037,2,dep_09,located_in,cty_01,Executive Office,Bengaluru
+doc_038,0,prj_39,delivered_for,cli_03,Project Phoebe,Maple and Mint Stores
+doc_038,1,prj_20,delivered_for,cli_16,Project Kepler,Ferrous Dynamics
+doc_038,2,prj_21,delivered_for,cli_17,Project Mira,Quill Industrial
+doc_038,3,per_018,has_skill,tec_21,P. Roy,Kafka
+doc_038,3,per_018,has_skill,tec_08,P. Roy,PostgreSQL
+doc_038,4,per_097,has_skill,tec_02,Sofia Sato,Java
+doc_038,4,per_097,has_skill,tec_19,Sofia Sato,Spark
+doc_038,4,per_097,has_skill,tec_03,Sofia Sato,Go
+doc_039,0,tec_28,depends_on,tec_30,Kubernetes,Docker
+doc_039,1,per_047,has_skill,tec_01,Riya Nakamura,Python
+doc_039,1,per_047,has_skill,tec_31,Riya Nakamura,PyTorch
+doc_039,1,per_047,has_skill,tec_04,Riya Nakamura,Rust
+doc_039,2,prj_12,uses_tech,tec_35,Project Zenith,Hugging Face Transformers
+doc_039,2,prj_12,uses_tech,tec_33,Project Zenith,sklearn
+doc_039,2,prj_12,uses_tech,tec_16,Project Zenith,FastAPI
+doc_040,0,per_069,has_skill,tec_28,James Fischer,Kubernetes
+doc_040,0,per_069,has_skill,tec_04,James Fischer,Rust
+doc_040,0,per_069,has_skill,tec_31,James Fischer,PyTorch
+doc_040,1,per_052,has_skill,tec_25,P. Verma,Azure Synapse
+doc_040,1,per_052,has_skill,tec_08,P. Verma,Postgres
+doc_040,2,per_078,works_on,prj_35,Aarav Nguyen,Project Ganymede
+doc_041,0,prj_14,uses_tech,tec_01,Project Cygnus,Python
+doc_041,0,prj_14,uses_tech,tec_21,Project Cygnus,Kafka
+doc_041,1,per_023,works_on,prj_44,Hiroshi Clarke,PROTEUS
+doc_041,2,per_078,works_on,prj_30,Aarav Nguyen,Project Altair
+doc_042,0,per_045,works_in,dep_07,Layla Bhat,Product Engineering
+doc_042,2,per_033,has_skill,tec_21,Lucas Costa,Apache Kafka
+doc_042,2,per_033,has_skill,tec_06,Lucas Costa,TypeScript
+doc_042,2,per_033,has_skill,tec_28,Lucas Costa,K8s
+doc_042,3,per_081,has_skill,tec_26,Chen Sharma,Google BigQuery
+doc_042,3,per_081,has_skill,tec_01,Chen Sharma,Python
+doc_042,3,per_081,has_skill,tec_27,Chen Sharma,Snowflake
+doc_043,0,prj_25,uses_tech,tec_31,Rigel,PyTorch
+doc_043,0,prj_25,uses_tech,tec_33,Rigel,scikit-learn
+doc_043,1,prj_34,delivered_for,cli_24,Project Europa,Lantern
+doc_043,2,prj_12,uses_tech,tec_31,Project Zenith,PyTorch
+doc_043,2,prj_12,uses_tech,tec_16,Project Zenith,FastAPI
+doc_043,3,per_005,leads,prj_39,Manish Rao,Project Phoebe
+doc_043,3,prj_39,delivered_for,cli_03,Project Phoebe,Maple and Mint Stores
+doc_043,4,per_082,works_in,dep_07,Amit Mukherjee,Product Engineering
+doc_043,5,prj_16,uses_tech,tec_04,ELARA,Rust
+doc_043,5,prj_16,uses_tech,tec_01,ELARA,Python
+doc_043,5,prj_16,uses_tech,tec_14,ELARA,Elasticsearch
+doc_044,1,tec_37,depends_on,tec_01,XGBoost,Python
+doc_044,2,prj_01,delivered_for,cli_08,Atlas,Pelican Mutual
+doc_044,3,per_056,works_on,prj_12,Isha Rossi,Project Zenith
+doc_045,0,prj_43,uses_tech,tec_15,TRITON,Django
+doc_045,0,prj_43,uses_tech,tec_32,TRITON,TensorFlow
+doc_045,1,per_076,leads,prj_20,Olivia Roy,Project Kepler
+doc_045,2,per_009,works_in,dep_03,Neha Clarke,Cybersecurity
+doc_046,0,per_039,reports_to,per_038,Elena Clarke,Priya Nair
+doc_046,1,prj_15,uses_tech,tec_29,Project Draco,Terraform
+doc_046,1,prj_15,uses_tech,tec_01,Project Draco,Python
+doc_046,1,prj_15,uses_tech,tec_28,Project Draco,Kubernetes
+doc_046,3,prj_12,delivered_for,cli_05,Project Zenith,Northgate
+doc_046,4,per_075,has_skill,tec_33,Lakshmi Kim,scikit-learn
+doc_046,4,per_075,has_skill,tec_23,Lakshmi Kim,S3
+doc_046,5,per_046,works_on,prj_21,Mateo Bhat,Project Mira
+doc_047,0,per_117,works_on,prj_07,Thomas Kim,Project Helios
+doc_047,1,per_055,works_in,dep_03,A. Tan,Cybersecurity
+doc_047,2,per_049,has_skill,tec_19,S. Rossi,Spark
+doc_047,2,per_049,has_skill,tec_20,S. Rossi,Airflow
+doc_047,2,per_049,has_skill,tec_10,S. Rossi,Neo4j
+doc_047,3,per_008,works_in,dep_07,J. Khan,Product Engineering
+doc_047,4,per_024,reports_to,per_019,M. Mukherjee,I. Khan
+doc_048,0,per_042,works_in,dep_07,M. Wong,Product Engineering
+doc_048,1,per_012,has_skill,tec_11,D. Roy,Redis
+doc_048,1,per_012,has_skill,tec_29,D. Roy,Terraform
+doc_048,2,per_110,reports_to,per_043,Sarah Rao,Pooja Patel
+doc_048,3,dep_09,located_in,cty_01,Executive Office,Bangalore
+doc_048,4,per_055,reports_to,per_063,Ananya Tan,Sneha Kulkarni
+doc_049,0,per_035,has_skill,tec_23,S. Reddy,S3
+doc_049,0,per_035,has_skill,tec_20,S. Reddy,Airflow
+doc_049,0,per_035,has_skill,tec_22,S. Reddy,dbt
+doc_049,1,cli_18,located_in,cty_05,Granite Works,London
+doc_049,2,per_018,reports_to,per_038,P. Roy,Priya Nair
+doc_050,0,tec_28,depends_on,tec_30,K8s,Docker
+doc_050,1,per_062,has_skill,tec_03,Lakshmi Joshi,Go
+doc_050,2,per_059,reports_to,per_021,Divya Rossi,Ravi Chatterjee
+doc_050,3,per_078,leads,prj_30,A. Nguyen,Altair
+doc_050,3,prj_30,delivered_for,cli_03,Altair,Maple and Mint Stores
+doc_050,4,prj_26,delivered_for,cli_23,Project Sirius,Echo Street Media
+doc_051,0,per_025,mentors,per_027,Riya Taylor,D. Kim
+doc_051,1,per_042,has_skill,tec_23,Mateo Wong,S3
+doc_051,1,per_042,has_skill,tec_30,Mateo Wong,Docker
+doc_051,1,per_042,has_skill,tec_12,Mateo Wong,Cassandra
+doc_051,2,prj_03,uses_tech,tec_05,Project Vega,SQL
+doc_051,2,prj_03,uses_tech,tec_33,Project Vega,scikit-learn
+doc_051,2,prj_03,uses_tech,tec_17,Project Vega,Spring Boot
+doc_051,3,per_038,works_in,dep_01,Priya Nair,Data Platform
+doc_051,4,per_101,reports_to,per_043,James Ito,P. Patel
+doc_051,5,cli_11,located_in,cty_03,Aster Care Systems,Hyderabad
+doc_052,0,per_095,leads,prj_26,R. Roy,Project Sirius
+doc_052,1,tec_30,depends_on,tec_03,Docker,Go
+doc_052,2,prj_22,delivered_for,cli_17,Project Nebula,Quill Industrial
+doc_053,0,tec_16,depends_on,tec_01,FastAPI,Python
+doc_053,1,per_073,reports_to,per_021,Anjali Nakamura,R. Chatterjee
+doc_053,2,prj_21,delivered_for,cli_17,MIRA,Quill Industrial
+doc_053,3,prj_38,uses_tech,tec_17,Project Tethys,Spring Boot
+doc_053,3,prj_38,uses_tech,tec_12,Project Tethys,Apache Cassandra
+doc_053,3,prj_38,uses_tech,tec_11,Project Tethys,Redis
+doc_054,0,tec_17,depends_on,tec_02,Spring,Java
+doc_054,1,cli_04,located_in,cty_04,Halcyon,Singapore
+doc_054,2,prj_06,delivered_for,cli_15,Project Apollo,Corvid
+doc_054,3,prj_40,uses_tech,tec_04,Project Rhea,Rust
+doc_054,4,cli_08,located_in,cty_06,Pelican Mutual,Toronto
+doc_055,0,prj_43,uses_tech,tec_15,Project Triton,Django
+doc_055,0,prj_43,uses_tech,tec_14,Project Triton,Elasticsearch
+doc_055,1,prj_40,delivered_for,cli_07,Project Rhea,Ardent
+doc_055,2,per_052,has_skill,tec_25,P. Verma,Synapse
+doc_055,2,per_052,has_skill,tec_08,P. Verma,PostgreSQL
+doc_055,2,per_052,has_skill,tec_06,P. Verma,TypeScript
+doc_055,3,per_117,mentors,per_118,T. Kim,Layla Sen
+doc_055,4,tec_31,depends_on,tec_01,PyTorch,Python
+doc_056,0,prj_17,delivered_for,cli_15,Project Fornax,Corvid
+doc_056,1,per_024,leads,prj_43,Meera Mukherjee,Project Triton
+doc_056,1,prj_43,delivered_for,cli_23,Project Triton,Echo Street Media
+doc_056,2,prj_20,uses_tech,tec_03,Kepler,Go
+doc_056,2,prj_20,uses_tech,tec_25,Kepler,Synapse
+doc_056,2,prj_20,uses_tech,tec_11,Kepler,Redis
+doc_057,0,per_065,has_skill,tec_06,Tara Gupta,TS
+doc_057,1,prj_39,uses_tech,tec_08,Project Phoebe,PostgreSQL
+doc_057,1,prj_39,uses_tech,tec_02,Project Phoebe,Java
+doc_057,2,per_118,reports_to,per_021,L. Sen,Ravi Chatterjee
+doc_057,3,prj_18,delivered_for,cli_19,GEMINI,Metro Transit Authority
+doc_057,4,cli_05,located_in,cty_04,Northgate Capital,Singapore
+doc_058,1,per_107,leads,prj_18,M. Sato,Gemini
+doc_058,1,prj_18,delivered_for,cli_19,Gemini,Metro
+doc_058,2,per_016,has_skill,tec_27,Layla Mehta,Snowflake
+doc_058,2,per_016,has_skill,tec_08,Layla Mehta,PostgreSQL
+doc_059,0,tec_29,depends_on,tec_03,Terraform,Golang
+doc_059,1,tec_10,depends_on,tec_02,Neo4j,Java
+doc_059,2,per_029,has_skill,tec_33,Linh Khan,scikit-learn
+doc_059,2,per_029,has_skill,tec_05,Linh Khan,SQL
+doc_059,3,per_034,reports_to,per_043,R. Verma,P. Patel
+doc_059,4,prj_22,uses_tech,tec_11,Project Nebula,Redis
+doc_060,0,tec_07,depends_on,tec_02,Scala,Java
+doc_060,1,per_106,leads,prj_42,Farah Lim,Project Iapetus
+doc_060,2,per_093,leads,prj_21,Meera Pillai,MIRA
+doc_060,3,per_088,works_on,prj_31,W. Patel,Project Bellatrix
+doc_060,4,tec_07,depends_on,tec_02,Scala,Java
+doc_060,5,per_005,reports_to,per_003,Manish Rao,Sanjay Clarke
+doc_061,0,cli_05,located_in,cty_04,Northgate,Singapore
+doc_061,1,prj_45,uses_tech,tec_34,Larissa,MLflow
+doc_061,2,per_074,works_on,prj_12,S. Smith,Project Zenith
+doc_061,3,per_062,has_skill,tec_04,Lakshmi Joshi,Rust
+doc_061,3,per_062,has_skill,tec_03,Lakshmi Joshi,Go
+doc_061,3,per_062,has_skill,tec_14,Lakshmi Joshi,Elasticsearch
+doc_061,4,tec_36,depends_on,tec_01,LangChain,Python
+doc_061,5,per_099,works_in,dep_02,Mei Menon,Applied AI
+doc_062,0,dep_04,located_in,cty_02,Cloud Infrastructure,Pune
+doc_062,1,prj_45,delivered_for,cli_02,Project Larissa,Kestrel Retail Group
+doc_062,2,prj_16,delivered_for,cli_20,Elara,State
+doc_062,3,per_090,works_in,dep_08,Sanjay Walker,Research
+doc_062,4,per_110,works_on,prj_33,S. Rao,Project Deneb
+doc_062,5,per_030,leads,prj_07,Imran Chatterjee,Project Helios
+doc_063,0,per_010,works_in,dep_04,M. Wong,Cloud Infrastructure
+doc_063,1,per_022,works_in,dep_01,Sneha Smith,Data Platform
+doc_063,2,per_025,leads,prj_10,Riya Taylor,Project Pulsar
+doc_064,3,per_107,leads,prj_18,Mateo Sato,Project Gemini
+doc_064,4,prj_02,delivered_for,cli_13,Project Orion,Orbis Logistics
+doc_065,0,prj_23,uses_tech,tec_03,Project Oberon,Go
+doc_065,0,prj_23,uses_tech,tec_11,Project Oberon,Redis
+doc_065,1,per_072,works_on,prj_04,Meera Das,Project Lyra
+doc_065,2,per_005,leads,prj_40,Manish Rao,Project Rhea
+doc_065,3,prj_39,uses_tech,tec_25,Phoebe,Synapse
+doc_065,3,prj_39,uses_tech,tec_17,Phoebe,Spring Boot
+doc_065,3,prj_39,uses_tech,tec_08,Phoebe,PostgreSQL
+doc_066,0,per_040,leads,prj_38,A. Sato,TETHYS
+doc_066,0,prj_38,delivered_for,cli_12,TETHYS,Willow
+doc_066,1,cli_23,located_in,cty_05,Echo Street Media,London
+doc_066,2,per_111,has_skill,tec_05,H. Lim,SQL
+doc_066,2,per_111,has_skill,tec_01,H. Lim,Python
+doc_066,3,per_021,works_on,prj_09,Ravi Chatterjee,Project Nova
+doc_066,4,per_119,has_skill,tec_12,Shreya Clarke,Cassandra
+doc_066,4,per_119,has_skill,tec_18,Shreya Clarke,React
+doc_066,5,cli_15,located_in,cty_04,Corvid,Singapore
+doc_067,0,per_010,works_in,dep_04,Mei Wong,Cloud Infrastructure
+doc_067,1,per_111,has_skill,tec_27,Hannah Lim,Snowflake
+doc_067,1,per_111,has_skill,tec_26,Hannah Lim,Google BigQuery
+doc_068,0,prj_19,uses_tech,tec_30,Project Halley,Docker
+doc_068,0,prj_19,uses_tech,tec_29,Project Halley,Terraform
+doc_068,0,prj_19,uses_tech,tec_32,Project Halley,TF
+doc_068,1,per_107,works_on,prj_18,Mateo Sato,Project Gemini
+doc_068,2,prj_09,delivered_for,cli_10,Project Nova,Lumen Health Network
+doc_068,3,per_093,leads,prj_19,Meera Pillai,HALLEY
+doc_069,1,per_081,works_in,dep_05,C. Sharma,Finance Analytics
+doc_069,2,per_038,mentors,per_054,Priya Nair,Ravi Malhotra
+doc_069,3,per_038,leads,prj_06,Priya Nair,APOLLO
+doc_069,4,per_094,works_on,prj_12,Rahul Iyer,Zenith
+doc_070,0,tec_12,depends_on,tec_02,Apache Cassandra,Java
+doc_070,1,per_076,has_skill,tec_25,O. Roy,Azure Synapse
+doc_070,1,per_076,has_skill,tec_03,O. Roy,Go
+doc_070,2,per_081,has_skill,tec_01,C. Sharma,Python
+doc_070,2,per_081,has_skill,tec_31,C. Sharma,PyTorch
+doc_070,3,cli_20,located_in,cty_02,State Revenue Office,Pune
+doc_070,4,per_009,works_on,prj_25,Neha Clarke,Project Rigel
+doc_071,0,per_043,works_in,dep_06,Pooja Patel,Customer Insights
+doc_071,1,prj_08,delivered_for,cli_16,Selene,Ferrous Dynamics
+doc_071,2,per_117,mentors,per_118,Thomas Kim,Layla Sen
+doc_072,1,per_037,works_in,dep_07,Mateo Bose,Product Engineering
+doc_072,2,prj_22,uses_tech,tec_11,Project Nebula,Redis
+doc_072,2,prj_22,uses_tech,tec_29,Project Nebula,Terraform
+doc_072,3,prj_39,uses_tech,tec_17,Project Phoebe,Spring Boot
+doc_073,0,per_095,leads,prj_26,Rohan Roy,Project Sirius
+doc_073,1,per_044,works_in,dep_07,Ravi Walker,Product Engineering
+doc_073,2,per_117,mentors,per_118,Thomas Kim,L. Sen
+doc_073,3,per_083,works_on,prj_28,Tara Dutta,UMBRA
+doc_073,4,per_084,reports_to,per_114,S. Walker,Layla Ghosh
+doc_074,0,per_021,leads,prj_12,R. Chatterjee,Project Zenith
+doc_074,1,per_022,reports_to,per_038,Sneha Smith,P. Nair
+doc_074,2,per_074,works_in,dep_02,Sarah Smith,Applied AI
+doc_074,3,prj_16,uses_tech,tec_01,Project Elara,Python
+doc_074,4,per_073,works_in,dep_02,Anjali Nakamura,Applied AI
+doc_074,5,per_059,works_on,prj_25,Divya Rossi,Project Rigel
+doc_075,0,per_041,has_skill,tec_32,Mei Evans,TF
+doc_075,1,per_057,leads,prj_14,Meera Roy,Project Cygnus
+doc_075,1,prj_14,delivered_for,cli_20,Project Cygnus,State Revenue Office
+doc_075,2,per_057,leads,prj_15,Meera Roy,Project Draco
+doc_076,0,per_007,works_in,dep_01,Layla Smith,Data Platform
+doc_076,1,prj_08,uses_tech,tec_19,Project Selene,Spark
+doc_076,1,prj_08,uses_tech,tec_06,Project Selene,TS
+doc_076,1,prj_08,uses_tech,tec_10,Project Selene,Neo4j
+doc_076,3,per_035,works_in,dep_01,Sarah Reddy,Data Platform
+doc_077,0,per_042,leads,prj_36,M. Wong,Project Hyperion
+doc_077,1,per_046,has_skill,tec_25,Mateo Bhat,Azure Synapse
+doc_077,2,per_095,works_on,prj_29,Rohan Roy,Project Vesta
+doc_077,4,per_081,works_on,prj_24,Chen Sharma,Pegasus
+doc_077,5,per_013,reports_to,per_063,Elena Haddad,S. Kulkarni
+doc_078,0,per_050,reports_to,per_005,E. Mukherjee,Manish Rao
+doc_078,1,per_095,mentors,per_017,R. Roy,Sanjay Gupta
+doc_078,2,prj_39,delivered_for,cli_03,Project Phoebe,Maple and Mint Stores
+doc_078,3,per_020,has_skill,tec_03,C. Fischer,Go
+doc_078,3,per_020,has_skill,tec_14,C. Fischer,Elastic
+doc_078,3,per_020,has_skill,tec_21,C. Fischer,Kafka
+doc_078,4,tec_28,depends_on,tec_30,Kubernetes,Docker
+doc_078,5,prj_25,uses_tech,tec_08,Project Rigel,PostgreSQL
+doc_078,5,prj_25,uses_tech,tec_01,Project Rigel,Python
+doc_079,1,per_095,leads,prj_26,Rohan Roy,Sirius
+doc_079,1,prj_26,delivered_for,cli_23,Sirius,Echo Street Media
+doc_079,2,tec_15,depends_on,tec_01,Django,Python
+doc_079,3,per_069,works_on,prj_44,James Fischer,PROTEUS
+doc_079,4,per_066,works_on,prj_36,Amit Malhotra,Project Hyperion
+doc_080,1,tec_37,depends_on,tec_01,XGBoost,Python
+doc_080,2,prj_41,delivered_for,cli_11,Project Dione,Aster Care Systems
+doc_080,3,per_047,has_skill,tec_13,Riya Nakamura,ClickHouse
+doc_080,4,prj_04,uses_tech,tec_08,Project Lyra,PostgreSQL
+doc_080,4,prj_04,uses_tech,tec_23,Project Lyra,AWS S3
+doc_080,5,per_093,has_skill,tec_32,Meera Pillai,TF
+doc_080,5,per_093,has_skill,tec_29,Meera Pillai,Terraform
+doc_081,0,per_007,works_in,dep_01,Layla Smith,Data Platform
+doc_081,1,prj_17,uses_tech,tec_28,Fornax,K8s
+doc_081,1,prj_17,uses_tech,tec_21,Fornax,Apache Kafka
+doc_081,2,per_089,reports_to,per_117,Rahul Walker,Thomas Kim
+doc_082,0,per_087,reports_to,per_048,Emily Singh,Anjali Nguyen
+doc_082,1,cli_06,located_in,cty_06,Sterling,Toronto
+doc_082,2,per_111,works_on,prj_29,H. Lim,Project Vesta
+doc_082,3,per_069,reports_to,per_019,James Fischer,Isha Khan
+doc_082,4,per_030,reports_to,per_021,I. Chatterjee,Ravi Chatterjee
+doc_083,0,per_025,mentors,per_027,R. Taylor,Divya Kim
+doc_083,1,per_092,reports_to,per_114,Hiroshi Shetty,L. Ghosh
+doc_083,2,per_093,mentors,per_102,Meera Pillai,Pooja Nair
+doc_083,3,per_078,works_on,prj_35,Aarav Nguyen,Ganymede
+doc_084,0,per_023,has_skill,tec_07,H. Clarke,Scala
+doc_084,1,per_087,has_skill,tec_01,Emily Singh,Python
+doc_084,2,per_045,leads,prj_37,Layla Bhat,Project Janus
+doc_084,2,prj_37,delivered_for,cli_02,Project Janus,Kestrel
+doc_085,0,per_012,works_on,prj_23,Deepak Roy,Project Oberon
+doc_085,1,per_117,works_in,dep_02,Thomas Kim,Applied AI
+doc_085,2,per_087,works_in,dep_05,Emily Singh,Finance Analytics
+doc_085,3,per_099,has_skill,tec_14,Mei Menon,Elasticsearch
+doc_085,3,per_099,has_skill,tec_19,Mei Menon,Spark
+doc_085,5,per_059,works_on,prj_10,Divya Rossi,Pulsar
+doc_086,0,prj_14,delivered_for,cli_20,Project Cygnus,State
+doc_086,1,prj_02,uses_tech,tec_13,ORION,ClickHouse
+doc_086,1,prj_02,uses_tech,tec_20,ORION,Airflow
+doc_086,2,per_045,leads,prj_37,Layla Bhat,Project Janus
+doc_086,2,prj_37,delivered_for,cli_02,Project Janus,Kestrel Retail Group
+doc_086,3,per_115,works_on,prj_34,Mateo Nair,Project Europa
+doc_087,0,per_009,works_on,prj_25,Neha Clarke,Rigel
+doc_087,2,per_119,has_skill,tec_17,Shreya Clarke,Spring Boot
+doc_087,3,per_119,has_skill,tec_20,S. Clarke,Apache Airflow
+doc_088,0,per_101,reports_to,per_043,J. Ito,P. Patel
+doc_088,1,per_093,works_in,dep_04,Meera Pillai,Cloud Infrastructure
+doc_088,2,prj_19,delivered_for,cli_18,HALLEY,Granite Works
+doc_088,3,per_026,works_on,prj_29,P. Bose,VESTA
+doc_088,4,per_038,leads,prj_06,Priya Nair,Project Apollo
+doc_088,4,prj_06,delivered_for,cli_15,Project Apollo,Corvid Cargo
+doc_088,5,per_088,works_in,dep_06,Wei Patel,Customer Insights
+doc_089,1,tec_18,depends_on,tec_06,React,TypeScript
+doc_089,2,per_015,has_skill,tec_10,F. Morgan,Neo4j
+doc_089,3,tec_30,depends_on,tec_03,Docker,Go
+doc_089,4,dep_04,located_in,cty_02,Cloud Infrastructure,Pune
+doc_089,5,dep_04,located_in,cty_02,Cloud Infrastructure,Pune
+doc_090,0,prj_20,delivered_for,cli_16,Project Kepler,Ferrous Dynamics
+doc_090,1,cli_15,located_in,cty_04,Corvid Cargo,Singapore
+doc_090,2,prj_22,uses_tech,tec_25,Project Nebula,Synapse
+doc_090,3,per_065,reports_to,per_042,T. Gupta,Mateo Wong
+doc_090,5,per_069,works_on,prj_44,J. Fischer,PROTEUS
+doc_091,0,per_098,has_skill,tec_31,Shreya Kulkarni,PyTorch
+doc_091,0,per_098,has_skill,tec_34,Shreya Kulkarni,MLflow
+doc_091,1,per_066,reports_to,per_043,Amit Malhotra,Pooja Patel
+doc_091,2,prj_44,delivered_for,cli_11,Project Proteus,Aster
+doc_092,0,per_066,has_skill,tec_18,A. Malhotra,React
+doc_092,0,per_066,has_skill,tec_30,A. Malhotra,Docker
+doc_092,1,per_055,works_on,prj_14,A. Tan,Project Cygnus
+doc_092,2,per_106,leads,prj_42,Farah Lim,Project Iapetus
+doc_092,2,prj_42,delivered_for,cli_24,Project Iapetus,Lantern Studios
+doc_093,1,per_005,works_in,dep_07,Manish Rao,Product Engineering
+doc_093,2,tec_16,depends_on,tec_01,FastAPI,Python
+doc_093,3,per_012,works_in,dep_04,Deepak Roy,Cloud Infrastructure
+doc_093,4,tec_10,depends_on,tec_02,Neo4j,Java
+doc_094,0,prj_45,uses_tech,tec_31,LARISSA,PyTorch
+doc_094,0,prj_45,uses_tech,tec_34,LARISSA,MLflow
+doc_094,0,prj_45,uses_tech,tec_07,LARISSA,Scala
+doc_094,1,per_039,reports_to,per_038,Elena Clarke,Priya Nair
+doc_094,2,per_056,leads,prj_11,Isha Rossi,QUASAR
+doc_095,1,prj_29,delivered_for,cli_05,VESTA,Northgate Capital
+doc_095,2,tec_17,depends_on,tec_02,Spring,Java
+doc_095,3,per_055,has_skill,tec_11,Ananya Tan,Redis
+doc_095,3,per_055,has_skill,tec_01,Ananya Tan,Python
+doc_095,3,per_055,has_skill,tec_14,Ananya Tan,Elasticsearch
+doc_095,4,cli_13,located_in,cty_02,Orbis Logistics,Pune
+doc_096,0,prj_08,uses_tech,tec_35,Project Selene,HF Transformers
+doc_096,0,prj_08,uses_tech,tec_34,Project Selene,MLflow
+doc_096,1,per_070,works_on,prj_17,H. Khan,Project Fornax
+doc_096,2,per_108,reports_to,per_019,J. Wong,Isha Khan
+doc_096,3,prj_23,uses_tech,tec_03,Oberon,Go
+doc_096,3,prj_23,uses_tech,tec_11,Oberon,Redis
+doc_097,2,per_112,works_on,prj_30,Neha Basu,Project Altair
+doc_097,3,per_022,works_on,prj_05,Sneha Smith,Project Hydra
+doc_097,4,tec_35,depends_on,tec_31,HF Transformers,PyTorch
+doc_097,5,per_083,works_on,prj_28,Tara Dutta,Project Umbra
+doc_098,0,cli_11,located_in,cty_03,Aster,Hyderabad
+doc_098,2,per_034,works_in,dep_06,Rahul Verma,Customer Insights
+doc_098,3,per_106,leads,prj_44,F. Lim,Project Proteus
+doc_099,0,per_076,mentors,per_116,Olivia Roy,Nikhil Ghosh
+doc_099,2,per_062,works_on,prj_23,Lakshmi Joshi,Project Oberon
+doc_099,3,per_076,mentors,per_116,Olivia Roy,Nikhil Ghosh
+doc_099,4,per_096,leads,prj_01,Hiroshi Bhat,Project Atlas
+doc_100,0,tec_22,depends_on,tec_05,dbt,SQL
+doc_100,1,prj_04,uses_tech,tec_08,Lyra,PostgreSQL
+doc_100,1,prj_04,uses_tech,tec_22,Lyra,dbt
+doc_100,1,prj_04,uses_tech,tec_23,Lyra,AWS S3
+doc_100,2,per_018,has_skill,tec_21,Pooja Roy,Kafka
+doc_100,3,per_040,leads,prj_38,A. Sato,Project Tethys
+doc_101,0,per_076,leads,prj_20,Olivia Roy,Project Kepler
+doc_101,0,prj_20,delivered_for,cli_16,Project Kepler,Ferrous
+doc_101,1,prj_41,uses_tech,tec_18,Dione,React
+doc_101,1,prj_41,uses_tech,tec_11,Dione,Redis
+doc_102,0,per_068,reports_to,per_005,I. Mukherjee,M. Rao
+doc_102,2,per_059,works_in,dep_02,D. Rossi,Applied AI
+doc_102,3,per_088,works_in,dep_06,Wei Patel,Customer Insights
+doc_102,5,per_026,works_on,prj_24,Pooja Bose,Project Pegasus
+doc_103,0,per_115,reports_to,per_043,Mateo Nair,P. Patel
+doc_103,1,prj_18,uses_tech,tec_14,GEMINI,Elasticsearch
+doc_103,1,prj_18,uses_tech,tec_30,GEMINI,Docker
+doc_103,1,prj_18,uses_tech,tec_01,GEMINI,Python
+doc_103,2,prj_16,delivered_for,cli_20,Project Elara,State
+doc_104,0,per_057,leads,prj_17,M. Roy,Project Fornax
+doc_104,2,prj_05,uses_tech,tec_19,Project Hydra,Spark
+doc_105,2,per_079,works_on,prj_36,Amit Khan,Project Hyperion
+doc_105,3,prj_17,delivered_for,cli_15,Project Fornax,Corvid Cargo
+doc_106,0,per_118,has_skill,tec_22,Layla Sen,dbt
+doc_106,1,prj_33,uses_tech,tec_18,Project Deneb,ReactJS
+doc_106,1,prj_33,uses_tech,tec_01,Project Deneb,Python
+doc_106,1,prj_33,uses_tech,tec_11,Project Deneb,Redis
+doc_106,2,per_076,has_skill,tec_28,Olivia Roy,Kubernetes
+doc_106,3,prj_14,delivered_for,cli_20,Cygnus,State Revenue Office
+doc_106,4,per_063,has_skill,tec_09,S. Kulkarni,MongoDB
+doc_106,4,per_063,has_skill,tec_03,S. Kulkarni,Go
+doc_106,4,per_063,has_skill,tec_33,S. Kulkarni,scikit-learn
+doc_106,5,per_025,mentors,per_027,Riya Taylor,Divya Kim
+doc_107,0,per_025,mentors,per_027,Riya Taylor,Divya Kim
+doc_107,2,prj_38,delivered_for,cli_12,Project Tethys,Willow Diagnostics
+doc_107,3,per_095,mentors,per_017,Rohan Roy,Sanjay Gupta
+doc_107,4,prj_18,delivered_for,cli_19,Project Gemini,Metro Transit Authority
+doc_107,5,per_093,leads,prj_21,Meera Pillai,Project Mira
+doc_107,5,prj_21,delivered_for,cli_17,Project Mira,Quill Industrial
+doc_108,2,per_110,has_skill,tec_26,Sarah Rao,BigQuery
+doc_108,2,per_110,has_skill,tec_01,Sarah Rao,Python
+doc_108,3,per_007,has_skill,tec_21,Layla Smith,Kafka
+doc_108,3,per_007,has_skill,tec_19,Layla Smith,Spark
+doc_109,1,per_003,works_in,dep_09,Sanjay Clarke,Executive Office
+doc_109,2,prj_06,uses_tech,tec_20,APOLLO,Airflow
+doc_109,2,prj_06,uses_tech,tec_19,APOLLO,Apache Spark
+doc_109,3,prj_36,delivered_for,cli_12,HYPERION,Willow Diagnostics
+doc_110,0,per_033,mentors,per_006,Lucas Costa,Daniel Walker
+doc_110,1,per_007,works_on,prj_05,Layla Smith,Hydra
+doc_110,2,per_115,reports_to,per_043,M. Nair,Pooja Patel
+doc_110,3,prj_16,uses_tech,tec_04,Project Elara,Rust
+doc_110,4,tec_36,depends_on,tec_01,LangChain,Python
+doc_111,0,per_080,works_in,dep_07,Ananya Kapoor,Product Engineering
+doc_111,1,per_024,leads,prj_43,Meera Mukherjee,Triton
+doc_111,1,prj_43,delivered_for,cli_23,Triton,Echo Street Media
+doc_111,2,tec_32,depends_on,tec_01,TF,Python
+doc_111,3,per_097,works_on,prj_30,Sofia Sato,Project Altair
+doc_111,4,per_095,has_skill,tec_08,R. Roy,Postgres
+doc_111,4,per_095,has_skill,tec_37,R. Roy,XGBoost
+doc_111,4,per_095,has_skill,tec_27,R. Roy,Snowflake
+doc_111,5,per_051,works_on,prj_43,Anjali Iyer,Project Triton
+doc_112,0,per_097,reports_to,per_043,Sofia Sato,Pooja Patel
+doc_112,1,prj_06,uses_tech,tec_05,Project Apollo,SQL
+doc_112,1,prj_06,uses_tech,tec_19,Project Apollo,Spark
+doc_112,2,per_004,reports_to,per_005,Kavya Rao,Manish Rao
+doc_113,0,per_072,leads,prj_03,M. Das,Project Vega
+doc_113,1,per_073,works_on,prj_17,Anjali Nakamura,Project Fornax
+doc_113,2,per_024,leads,prj_45,M. Mukherjee,LARISSA
+doc_113,2,prj_45,delivered_for,cli_02,LARISSA,Kestrel Retail Group
+doc_113,3,per_064,has_skill,tec_28,Aditya Ghosh,Kubernetes
+doc_113,4,per_040,leads,prj_38,A. Sato,Project Tethys
+doc_113,4,prj_38,delivered_for,cli_12,Project Tethys,Willow Diagnostics
+doc_114,0,prj_26,uses_tech,tec_08,Sirius,Postgres
+doc_114,1,prj_37,delivered_for,cli_02,Project Janus,Kestrel Retail Group
+doc_114,2,prj_28,uses_tech,tec_27,Project Umbra,Snowflake
+doc_114,3,tec_19,depends_on,tec_07,Spark,Scala
+doc_115,0,prj_16,uses_tech,tec_14,Project Elara,Elasticsearch
+doc_115,0,prj_16,uses_tech,tec_01,Project Elara,Python
+doc_115,1,per_026,works_on,prj_29,Pooja Bose,Project Vesta
+doc_115,2,per_025,works_in,dep_02,Riya Taylor,Applied AI
+doc_115,3,per_113,works_on,prj_20,Emily Nakamura,Project Kepler
+doc_116,0,per_093,leads,prj_19,Meera Pillai,Project Halley
+doc_116,1,prj_14,delivered_for,cli_20,Project Cygnus,State Revenue Office
+doc_116,2,prj_15,uses_tech,tec_03,Project Draco,Golang
+doc_116,3,per_048,mentors,per_061,A. Nguyen,Sanjay Roy
+doc_117,0,per_024,reports_to,per_019,Meera Mukherjee,Isha Khan
+doc_117,1,prj_02,uses_tech,tec_22,Project Orion,dbt
+doc_117,1,prj_02,uses_tech,tec_17,Project Orion,Spring Boot
+doc_117,1,prj_02,uses_tech,tec_13,Project Orion,ClickHouse
+doc_117,3,per_095,leads,prj_26,Rohan Roy,Project Sirius
+doc_117,5,dep_09,located_in,cty_01,Executive Office,Bangalore
+doc_118,0,per_030,leads,prj_07,Imran Chatterjee,Helios
+doc_118,0,prj_07,delivered_for,cli_06,Helios,Sterling Ridge Bank
+doc_118,1,per_018,works_on,prj_06,P. Roy,Apollo
+doc_118,2,prj_37,delivered_for,cli_02,Project Janus,Kestrel
+doc_118,3,per_106,leads,prj_44,F. Lim,Project Proteus
+doc_118,3,prj_44,delivered_for,cli_11,Project Proteus,Aster Care Systems
+doc_118,4,cli_01,located_in,cty_05,Verdant Foods,London
+doc_118,5,prj_07,uses_tech,tec_01,HELIOS,Python
+doc_118,5,prj_07,uses_tech,tec_34,HELIOS,MLflow
+doc_119,0,per_078,leads,prj_30,A. Nguyen,Project Altair
+doc_119,1,per_109,works_on,prj_04,Rahul Haddad,Lyra
+doc_119,2,cli_02,located_in,cty_04,Kestrel Retail Group,Singapore
+doc_119,3,dep_04,located_in,cty_02,Cloud Infrastructure,Pune
+doc_120,0,prj_08,uses_tech,tec_35,Selene,HF Transformers
+doc_120,1,per_091,works_on,prj_21,Rahul Shetty,MIRA
+doc_120,2,dep_06,located_in,cty_06,Customer Insights,Toronto
+doc_120,3,prj_15,delivered_for,cli_21,Project Draco,Civic Registry Board
+doc_121,0,dep_05,located_in,cty_05,Finance Analytics,London
+doc_121,1,per_040,reports_to,per_005,A. Sato,Manish Rao
+doc_121,2,per_026,leads,prj_25,Pooja Bose,Project Rigel
+doc_121,2,prj_25,delivered_for,cli_09,Project Rigel,Cobalt Life
+doc_121,3,per_111,has_skill,tec_26,Hannah Lim,Google BigQuery
+doc_121,3,per_111,has_skill,tec_05,Hannah Lim,SQL
+doc_121,4,per_096,has_skill,tec_21,Hiroshi Bhat,Apache Kafka
+doc_121,4,per_096,has_skill,tec_23,Hiroshi Bhat,S3
+doc_122,0,prj_24,uses_tech,tec_05,Pegasus,SQL
+doc_122,0,prj_24,uses_tech,tec_37,Pegasus,XGBoost
+doc_122,0,prj_24,uses_tech,tec_01,Pegasus,Python
+doc_122,2,per_103,works_in,dep_01,Ananya Rao,Data Platform
+doc_123,0,cli_06,located_in,cty_06,Sterling,Toronto
+doc_123,1,prj_01,uses_tech,tec_08,Atlas,Postgres
+doc_123,1,prj_01,uses_tech,tec_13,Atlas,ClickHouse
+doc_123,2,prj_40,uses_tech,tec_15,Rhea,Django
+doc_123,3,per_028,has_skill,tec_08,L. Bhat,PostgreSQL
+doc_123,3,per_028,has_skill,tec_36,L. Bhat,LangChain
+doc_123,3,per_028,has_skill,tec_26,L. Bhat,BigQuery
+doc_123,4,per_094,works_on,prj_12,Rahul Iyer,Project Zenith
+doc_123,5,per_065,has_skill,tec_06,Tara Gupta,TS
+doc_123,5,per_065,has_skill,tec_11,Tara Gupta,Redis
+doc_123,5,per_065,has_skill,tec_17,Tara Gupta,Spring Boot
+doc_124,0,prj_33,uses_tech,tec_18,DENEB,React
+doc_124,0,prj_33,uses_tech,tec_11,DENEB,Redis
+doc_124,1,prj_20,uses_tech,tec_25,Project Kepler,Synapse
+doc_124,2,per_106,leads,prj_42,Farah Lim,Project Iapetus
+doc_124,3,per_034,leads,prj_32,Rahul Verma,Project Callisto
+doc_124,3,prj_32,delivered_for,cli_24,Project Callisto,Lantern Studios
+doc_124,4,per_023,reports_to,per_019,H. Clarke,Isha Khan
+doc_124,5,prj_07,uses_tech,tec_22,Project Helios,dbt
+doc_124,5,prj_07,uses_tech,tec_01,Project Helios,Python
+doc_125,0,per_041,works_in,dep_08,Mei Evans,Research
+doc_125,1,per_064,works_on,prj_20,Aditya Ghosh,Project Kepler
+doc_125,3,per_088,works_on,prj_31,Wei Patel,Project Bellatrix
+doc_125,4,prj_08,uses_tech,tec_10,Project Selene,Neo4j
+doc_126,0,per_112,works_on,prj_14,Neha Basu,Project Cygnus
+doc_126,1,per_099,reports_to,per_021,Mei Menon,R. Chatterjee
+doc_126,2,tec_33,depends_on,tec_01,sklearn,Python
+doc_126,3,prj_27,uses_tech,tec_12,Project Titan,Cassandra
+doc_127,0,per_052,has_skill,tec_08,Priya Verma,Postgres
+doc_127,0,per_052,has_skill,tec_06,Priya Verma,TypeScript
+doc_127,1,per_030,works_on,prj_43,I. Chatterjee,Project Triton
+doc_127,2,per_029,works_on,prj_25,Linh Khan,Project Rigel
+doc_128,0,per_072,works_on,prj_04,M. Das,Lyra
+doc_128,2,cli_05,located_in,cty_04,Northgate Capital,Singapore
+doc_129,0,per_075,has_skill,tec_22,L. Kim,dbt
+doc_129,0,per_075,has_skill,tec_23,L. Kim,AWS S3
+doc_129,0,per_075,has_skill,tec_33,L. Kim,scikit-learn
+doc_129,1,per_108,reports_to,per_019,J. Wong,Isha Khan
+doc_129,2,per_025,mentors,per_027,R. Taylor,Divya Kim
+doc_130,0,per_096,has_skill,tec_05,Hiroshi Bhat,SQL
+doc_130,0,per_096,has_skill,tec_23,Hiroshi Bhat,AWS S3
+doc_130,0,per_096,has_skill,tec_21,Hiroshi Bhat,Kafka
+doc_130,1,per_109,works_in,dep_01,Rahul Haddad,Data Platform
+doc_130,2,cli_07,located_in,cty_02,Ardent Assurance,Pune
+doc_130,3,per_093,mentors,per_102,M. Pillai,Pooja Nair
+doc_131,0,per_087,has_skill,tec_27,Emily Singh,Snowflake
+doc_131,1,per_004,has_skill,tec_06,Kavya Rao,TypeScript
+doc_131,1,per_004,has_skill,tec_14,Kavya Rao,Elasticsearch
+doc_131,1,per_004,has_skill,tec_28,Kavya Rao,Kubernetes
+doc_131,2,per_099,reports_to,per_021,M. Menon,R. Chatterjee
+doc_132,0,tec_36,depends_on,tec_01,LangChain,Python
+doc_132,1,per_030,leads,prj_13,I. Chatterjee,Project Aurora
+doc_132,2,per_024,has_skill,tec_01,Meera Mukherjee,Python
+doc_132,2,per_024,has_skill,tec_15,Meera Mukherjee,Django
+doc_132,3,per_005,leads,prj_40,M. Rao,Project Rhea
+doc_133,0,per_067,mentors,per_075,Riya Malhotra,Lakshmi Kim
+doc_133,1,prj_26,delivered_for,cli_23,Project Sirius,Echo Street Media
+doc_133,2,prj_32,delivered_for,cli_24,Project Callisto,Lantern Studios
+doc_133,3,per_027,works_on,prj_11,Divya Kim,Project Quasar
+doc_133,4,per_088,works_on,prj_31,Wei Patel,Project Bellatrix
+doc_134,0,per_109,reports_to,per_096,Rahul Haddad,Hiroshi Bhat
+doc_134,1,prj_09,delivered_for,cli_10,Nova,Lumen Health Network
+doc_134,2,per_005,leads,prj_40,Manish Rao,Project Rhea
+doc_134,2,prj_40,delivered_for,cli_07,Project Rhea,Ardent Assurance
+doc_135,0,per_046,works_on,prj_21,Mateo Bhat,Project Mira
+doc_135,1,prj_23,delivered_for,cli_20,Project Oberon,State
+doc_136,0,cli_09,located_in,cty_01,Cobalt Life,Bengaluru
+doc_136,1,per_112,mentors,per_115,N. Basu,M. Nair
+doc_136,2,per_031,works_on,prj_37,Rahul Clarke,Project Janus
+doc_136,3,tec_22,depends_on,tec_05,dbt,SQL
+doc_136,4,per_076,mentors,per_116,Olivia Roy,Nikhil Ghosh
+doc_136,5,per_072,works_in,dep_01,M. Das,Data Platform
+doc_137,0,prj_29,delivered_for,cli_05,Vesta,Northgate
+doc_137,1,per_057,has_skill,tec_28,Meera Roy,Kubernetes
+doc_137,2,per_038,leads,prj_02,Priya Nair,Orion
+doc_137,3,cli_22,located_in,cty_06,Prism,Toronto
+doc_137,4,prj_21,uses_tech,tec_07,Mira,Scala
+doc_137,4,prj_21,uses_tech,tec_30,Mira,Docker
+doc_137,4,prj_21,uses_tech,tec_03,Mira,Golang
+doc_138,0,prj_38,uses_tech,tec_12,Project Tethys,Apache Cassandra
+doc_138,0,prj_38,uses_tech,tec_17,Project Tethys,Spring Boot
+doc_138,0,prj_38,uses_tech,tec_02,Project Tethys,Java
+doc_138,1,per_045,leads,prj_37,L. Bhat,Project Janus
+doc_138,2,per_056,works_on,prj_07,Isha Rossi,Project Helios
+doc_138,3,per_066,has_skill,tec_17,Amit Malhotra,Spring Boot
+doc_138,3,per_066,has_skill,tec_26,Amit Malhotra,Google BigQuery
+doc_138,3,per_066,has_skill,tec_06,Amit Malhotra,TypeScript
+doc_139,0,per_107,leads,prj_16,Mateo Sato,ELARA
+doc_139,1,per_082,mentors,per_065,Amit Mukherjee,Tara Gupta
+doc_139,2,per_112,mentors,per_115,Neha Basu,Mateo Nair
+doc_140,0,per_008,reports_to,per_005,J. Khan,Manish Rao
+doc_140,1,tec_37,depends_on,tec_01,XGBoost,Python
+doc_140,2,cli_20,located_in,cty_02,State Revenue Office,Pune
+doc_140,3,per_017,works_on,prj_29,Sanjay Gupta,Project Vesta
+doc_140,4,prj_11,uses_tech,tec_13,Project Quasar,ClickHouse
+doc_140,4,prj_11,uses_tech,tec_32,Project Quasar,TensorFlow
+doc_140,5,per_032,works_on,prj_40,Imran Nguyen,Project Rhea
+doc_141,0,per_005,reports_to,per_003,M. Rao,Sanjay Clarke
+doc_141,1,per_059,works_on,prj_13,D. Rossi,Project Aurora
+doc_141,2,per_110,leads,prj_33,Sarah Rao,Project Deneb
+doc_141,2,prj_33,delivered_for,cli_24,Project Deneb,Lantern Studios
+doc_141,3,per_106,leads,prj_42,Farah Lim,IAPETUS
+doc_141,4,dep_09,located_in,cty_01,Executive Office,Bengaluru
+doc_142,0,per_062,mentors,per_009,L. Joshi,N. Clarke
+doc_142,1,per_117,reports_to,per_021,Thomas Kim,Ravi Chatterjee
+doc_142,2,prj_12,uses_tech,tec_31,Project Zenith,PyTorch
+doc_142,3,prj_15,uses_tech,tec_03,Project Draco,Go
+doc_142,3,prj_15,uses_tech,tec_29,Project Draco,Terraform
+doc_142,3,prj_15,uses_tech,tec_01,Project Draco,Python
+doc_142,4,per_042,reports_to,per_005,M. Wong,Manish Rao
+doc_143,0,per_079,has_skill,tec_02,Amit Khan,Java
+doc_143,1,per_049,reports_to,per_117,S. Rossi,Thomas Kim
+doc_143,2,tec_30,depends_on,tec_03,Docker,Golang
+doc_144,0,per_031,reports_to,per_019,R. Clarke,I. Khan
+doc_144,1,per_086,has_skill,tec_01,Thomas Kapoor,Python
+doc_144,2,per_057,works_on,prj_15,Meera Roy,Project Draco
+doc_144,3,per_111,mentors,per_086,Hannah Lim,Thomas Kapoor
+doc_145,0,per_008,reports_to,per_005,J. Khan,Manish Rao
+doc_145,1,prj_24,uses_tech,tec_31,Project Pegasus,PyTorch
+doc_145,1,prj_24,uses_tech,tec_01,Project Pegasus,Python
+doc_145,1,prj_24,uses_tech,tec_27,Project Pegasus,Snowflake
+doc_145,2,per_062,works_on,prj_16,Lakshmi Joshi,Elara
+doc_145,3,per_113,works_in,dep_06,E. Nakamura,Customer Insights
+doc_146,0,per_114,works_on,prj_21,L. Ghosh,Project Mira
+doc_146,1,per_006,has_skill,tec_01,Daniel Walker,Python
+doc_146,2,per_072,leads,prj_04,Meera Das,Project Lyra
+doc_146,2,prj_04,delivered_for,cli_03,Project Lyra,Maple
+doc_146,3,tec_31,depends_on,tec_01,PyTorch,Python
+doc_147,0,prj_34,uses_tech,tec_06,Project Europa,TypeScript
+doc_147,0,prj_34,uses_tech,tec_18,Project Europa,React
+doc_147,1,prj_30,uses_tech,tec_03,Project Altair,Golang
+doc_147,2,per_082,works_on,prj_39,Amit Mukherjee,Project Phoebe
+doc_147,3,per_034,leads,prj_32,Rahul Verma,Callisto
+doc_147,4,prj_30,delivered_for,cli_03,Altair,Maple and Mint Stores
+doc_147,5,prj_06,delivered_for,cli_15,Apollo,Corvid Cargo
+doc_148,2,tec_32,depends_on,tec_01,TF,Python
+doc_148,3,prj_29,delivered_for,cli_05,Project Vesta,Northgate Capital
+doc_149,0,per_096,reports_to,per_038,Hiroshi Bhat,Priya Nair
+doc_149,1,per_019,mentors,per_011,Isha Khan,O. Clarke
+doc_149,2,per_094,works_on,prj_12,Rahul Iyer,Project Zenith
+doc_149,4,per_008,works_in,dep_07,James Khan,Product Engineering
+doc_149,5,prj_19,uses_tech,tec_25,Project Halley,Synapse
+doc_149,5,prj_19,uses_tech,tec_30,Project Halley,Docker
+doc_149,5,prj_19,uses_tech,tec_32,Project Halley,TensorFlow
+doc_150,2,per_115,has_skill,tec_29,Mateo Nair,Terraform
+doc_150,2,per_115,has_skill,tec_22,Mateo Nair,dbt
+doc_150,3,per_054,works_in,dep_01,Ravi Malhotra,Data Platform
+doc_150,4,per_079,works_in,dep_07,Amit Khan,Product Engineering
+doc_151,0,per_098,works_on,prj_10,Shreya Kulkarni,Project Pulsar
+doc_151,1,per_063,has_skill,tec_33,S. Kulkarni,scikit-learn
+doc_151,1,per_063,has_skill,tec_30,S. Kulkarni,Docker
+doc_151,1,per_063,has_skill,tec_09,S. Kulkarni,Mongo
+doc_151,2,per_041,reports_to,per_019,Mei Evans,Isha Khan
+doc_151,3,prj_39,uses_tech,tec_17,Project Phoebe,Spring Boot
+doc_152,0,prj_10,uses_tech,tec_33,Pulsar,scikit-learn
+doc_152,0,prj_10,uses_tech,tec_14,Pulsar,Elastic
+doc_152,0,prj_10,uses_tech,tec_04,Pulsar,Rust
+doc_152,1,per_065,has_skill,tec_11,Tara Gupta,Redis
+doc_152,1,per_065,has_skill,tec_18,Tara Gupta,ReactJS
+doc_152,2,per_115,works_on,prj_33,M. Nair,Deneb
+doc_152,3,tec_18,depends_on,tec_06,React,TypeScript
+doc_153,0,per_045,works_on,prj_06,Layla Bhat,Project Apollo
+doc_153,1,prj_30,uses_tech,tec_33,Altair,scikit-learn
+doc_153,2,per_108,has_skill,tec_04,James Wong,Rust
+doc_153,3,per_035,works_on,prj_02,Sarah Reddy,Project Orion
+doc_154,2,tec_15,depends_on,tec_01,Django,Python
+doc_154,3,per_076,mentors,per_091,Olivia Roy,Rahul Shetty
+doc_154,4,dep_03,located_in,cty_02,Cybersecurity,Pune
+doc_154,5,per_067,mentors,per_075,Riya Malhotra,Lakshmi Kim
+doc_155,0,per_008,has_skill,tec_08,James Khan,PostgreSQL
+doc_155,1,per_082,mentors,per_065,A. Mukherjee,T. Gupta
+doc_155,2,per_046,reports_to,per_048,Mateo Bhat,Anjali Nguyen
+doc_156,0,per_076,works_in,dep_04,Olivia Roy,Cloud Infrastructure
+doc_156,1,per_023,works_on,prj_44,Hiroshi Clarke,Project Proteus
+doc_156,3,prj_23,delivered_for,cli_20,Project Oberon,State Revenue Office
+doc_156,4,per_114,leads,prj_22,Layla Ghosh,Project Nebula
+doc_157,0,cli_12,located_in,cty_04,Willow,Singapore
+doc_157,1,per_019,mentors,per_011,I. Khan,O. Clarke
+doc_157,2,per_072,leads,prj_03,Meera Das,Project Vega
+doc_157,2,prj_03,delivered_for,cli_13,Project Vega,Orbis
+doc_158,0,per_014,has_skill,tec_08,Rohan Verma,PostgreSQL
+doc_158,3,per_017,works_on,prj_28,Sanjay Gupta,Umbra
+doc_158,4,per_103,reports_to,per_038,A. Rao,Priya Nair
+doc_159,0,prj_24,delivered_for,cli_04,Pegasus,Halcyon Bank
+doc_159,1,tec_17,depends_on,tec_02,Spring Boot,Java
+doc_159,2,per_021,works_on,prj_12,Ravi Chatterjee,Project Zenith
+doc_159,4,per_009,reports_to,per_063,Neha Clarke,Sneha Kulkarni
+doc_159,5,prj_26,uses_tech,tec_08,Project Sirius,PostgreSQL
+doc_159,5,prj_26,uses_tech,tec_27,Project Sirius,Snowflake
+doc_160,0,per_062,mentors,per_009,Lakshmi Joshi,N. Clarke
+doc_160,1,per_048,leads,prj_29,Anjali Nguyen,Vesta
+doc_160,1,prj_29,delivered_for,cli_05,Vesta,Northgate
+doc_160,2,per_067,has_skill,tec_05,R. Malhotra,SQL
+doc_160,3,per_057,works_on,prj_15,Meera Roy,Project Draco
+doc_160,4,per_075,has_skill,tec_23,Lakshmi Kim,S3

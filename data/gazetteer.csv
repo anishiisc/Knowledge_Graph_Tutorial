@@ -1,0 +1,435 @@
+surface,entity_id,type
+Bengaluru,cty_01,City
+Pune,cty_02,City
+Hyderabad,cty_03,City
+Singapore,cty_04,City
+London,cty_05,City
+Toronto,cty_06,City
+Python,tec_01,Language
+Java,tec_02,Language
+Go,tec_03,Language
+Rust,tec_04,Language
+SQL,tec_05,Language
+TypeScript,tec_06,Language
+Scala,tec_07,Language
+PostgreSQL,tec_08,Database
+MongoDB,tec_09,Database
+Neo4j,tec_10,Database
+Redis,tec_11,Database
+Cassandra,tec_12,Database
+ClickHouse,tec_13,Database
+Elasticsearch,tec_14,Database
+Django,tec_15,Framework
+FastAPI,tec_16,Framework
+Spring Boot,tec_17,Framework
+React,tec_18,Framework
+Spark,tec_19,Framework
+Airflow,tec_20,Framework
+Kafka,tec_21,Framework
+dbt,tec_22,Framework
+AWS S3,tec_23,CloudService
+AWS Lambda,tec_24,CloudService
+Azure Synapse,tec_25,CloudService
+BigQuery,tec_26,CloudService
+Snowflake,tec_27,CloudService
+Kubernetes,tec_28,CloudService
+Terraform,tec_29,CloudService
+Docker,tec_30,CloudService
+PyTorch,tec_31,MLTool
+TensorFlow,tec_32,MLTool
+scikit-learn,tec_33,MLTool
+MLflow,tec_34,MLTool
+Hugging Face Transformers,tec_35,MLTool
+LangChain,tec_36,MLTool
+XGBoost,tec_37,MLTool
+Data Platform,dep_01,Department
+Applied AI,dep_02,Department
+Cybersecurity,dep_03,Department
+Cloud Infrastructure,dep_04,Department
+Finance Analytics,dep_05,Department
+Customer Insights,dep_06,Department
+Product Engineering,dep_07,Department
+Research,dep_08,Department
+Executive Office,dep_09,Department
+Verdant Foods,cli_01,Client
+Kestrel Retail Group,cli_02,Client
+Maple and Mint Stores,cli_03,Client
+Halcyon Bank,cli_04,Client
+Northgate Capital,cli_05,Client
+Sterling Ridge Bank,cli_06,Client
+Ardent Assurance,cli_07,Client
+Pelican Mutual,cli_08,Client
+Cobalt Life,cli_09,Client
+Lumen Health Network,cli_10,Client
+Aster Care Systems,cli_11,Client
+Willow Diagnostics,cli_12,Client
+Orbis Logistics,cli_13,Client
+Tidewater Freight,cli_14,Client
+Corvid Cargo,cli_15,Client
+Ferrous Dynamics,cli_16,Client
+Quill Industrial,cli_17,Client
+Granite Works,cli_18,Client
+Metro Transit Authority,cli_19,Client
+State Revenue Office,cli_20,Client
+Civic Registry Board,cli_21,Client
+Prism Broadcasting,cli_22,Client
+Echo Street Media,cli_23,Client
+Lantern Studios,cli_24,Client
+Yuki Tan,per_001,Executive
+Karan Ito,per_002,Executive
+Sanjay Clarke,per_003,Executive
+Kavya Rao,per_004,Engineer
+Manish Rao,per_005,Manager
+Daniel Walker,per_006,Engineer
+Layla Smith,per_007,Engineer
+James Khan,per_008,Engineer
+Neha Clarke,per_009,Engineer
+Mei Wong,per_010,Analyst
+Olivia Clarke,per_011,Researcher
+Deepak Roy,per_012,Engineer
+Elena Haddad,per_013,Engineer
+Rohan Verma,per_014,Engineer
+Farah Morgan,per_015,Engineer
+Layla Mehta,per_016,Analyst
+Sanjay Gupta,per_017,Engineer
+Pooja Roy,per_018,Analyst
+Isha Khan,per_019,Manager
+Chen Fischer,per_020,Analyst
+Ravi Chatterjee,per_021,Manager
+Sneha Smith,per_022,Engineer
+Hiroshi Clarke,per_023,Researcher
+Meera Mukherjee,per_024,Researcher
+Riya Taylor,per_025,Engineer
+Pooja Bose,per_026,Engineer
+Divya Kim,per_027,Engineer
+Lucas Bhat,per_028,Engineer
+Linh Khan,per_029,Engineer
+Imran Chatterjee,per_030,Analyst
+Rahul Clarke,per_031,Engineer
+Imran Nguyen,per_032,Engineer
+Lucas Costa,per_033,Engineer
+Rahul Verma,per_034,Analyst
+Sarah Reddy,per_035,Engineer
+Emily Kulkarni,per_036,Engineer
+Mateo Bose,per_037,Engineer
+Priya Nair,per_038,Manager
+Elena Clarke,per_039,Engineer
+Amit Sato,per_040,Engineer
+Mei Evans,per_041,Engineer
+Mateo Wong,per_042,Manager
+Pooja Patel,per_043,Manager
+Ravi Walker,per_044,Engineer
+Layla Bhat,per_045,Analyst
+Mateo Bhat,per_046,Analyst
+Riya Nakamura,per_047,Researcher
+Anjali Nguyen,per_048,Manager
+Sanjay Rossi,per_049,Analyst
+Emily Mukherjee,per_050,Engineer
+Anjali Iyer,per_051,Engineer
+Priya Verma,per_052,Engineer
+Aditya Patel,per_053,Engineer
+Ravi Malhotra,per_054,Analyst
+Ananya Tan,per_055,Engineer
+Isha Rossi,per_056,Engineer
+Meera Roy,per_057,Engineer
+Divya Shetty,per_058,Engineer
+Divya Rossi,per_059,Engineer
+Lucas Sharma,per_060,Engineer
+Sanjay Roy,per_061,Analyst
+Lakshmi Joshi,per_062,Engineer
+Sneha Kulkarni,per_063,Manager
+Aditya Ghosh,per_064,Engineer
+Tara Gupta,per_065,Engineer
+Amit Malhotra,per_066,Manager
+Riya Malhotra,per_067,Engineer
+Isha Mukherjee,per_068,Engineer
+James Fischer,per_069,Researcher
+Hannah Khan,per_070,Engineer
+Sneha Singh,per_071,Engineer
+Meera Das,per_072,Analyst
+Anjali Nakamura,per_073,Engineer
+Sarah Smith,per_074,Engineer
+Lakshmi Kim,per_075,Engineer
+Olivia Roy,per_076,Engineer
+Wei Ghosh,per_077,Engineer
+Aarav Nguyen,per_078,Analyst
+Amit Khan,per_079,Engineer
+Ananya Kapoor,per_080,Engineer
+Chen Sharma,per_081,Analyst
+Amit Mukherjee,per_082,Engineer
+Tara Dutta,per_083,Engineer
+Siddharth Walker,per_084,Engineer
+Neha Menon,per_085,Engineer
+Thomas Kapoor,per_086,Analyst
+Emily Singh,per_087,Engineer
+Wei Patel,per_088,Engineer
+Rahul Walker,per_089,Engineer
+Sanjay Walker,per_090,Researcher
+Rahul Shetty,per_091,Engineer
+Hiroshi Shetty,per_092,Engineer
+Meera Pillai,per_093,Engineer
+Rahul Iyer,per_094,Engineer
+Rohan Roy,per_095,Manager
+Hiroshi Bhat,per_096,Manager
+Sofia Sato,per_097,Engineer
+Shreya Kulkarni,per_098,Engineer
+Mei Menon,per_099,Engineer
+Aarav Khan,per_100,Engineer
+James Ito,per_101,Analyst
+Pooja Nair,per_102,Engineer
+Ananya Rao,per_103,Engineer
+Hiroshi Walker,per_104,Engineer
+Thomas Gupta,per_105,Engineer
+Farah Lim,per_106,Researcher
+Mateo Sato,per_107,Engineer
+James Wong,per_108,Researcher
+Rahul Haddad,per_109,Engineer
+Sarah Rao,per_110,Engineer
+Hannah Lim,per_111,Engineer
+Neha Basu,per_112,Analyst
+Emily Nakamura,per_113,Analyst
+Layla Ghosh,per_114,Manager
+Mateo Nair,per_115,Engineer
+Nikhil Ghosh,per_116,Engineer
+Thomas Kim,per_117,Manager
+Layla Sen,per_118,Engineer
+Shreya Clarke,per_119,Engineer
+Kavya Smith,per_120,Engineer
+Project Atlas,prj_01,Project
+Project Orion,prj_02,Project
+Project Vega,prj_03,Project
+Project Lyra,prj_04,Project
+Project Hydra,prj_05,Project
+Project Apollo,prj_06,Project
+Project Helios,prj_07,Project
+Project Selene,prj_08,Project
+Project Nova,prj_09,Project
+Project Pulsar,prj_10,Project
+Project Quasar,prj_11,Project
+Project Zenith,prj_12,Project
+Project Aurora,prj_13,Project
+Project Cygnus,prj_14,Project
+Project Draco,prj_15,Project
+Project Elara,prj_16,Project
+Project Fornax,prj_17,Project
+Project Gemini,prj_18,Project
+Project Halley,prj_19,Project
+Project Kepler,prj_20,Project
+Project Mira,prj_21,Project
+Project Nebula,prj_22,Project
+Project Oberon,prj_23,Project
+Project Pegasus,prj_24,Project
+Project Rigel,prj_25,Project
+Project Sirius,prj_26,Project
+Project Titan,prj_27,Project
+Project Umbra,prj_28,Project
+Project Vesta,prj_29,Project
+Project Altair,prj_30,Project
+Project Bellatrix,prj_31,Project
+Project Callisto,prj_32,Project
+Project Deneb,prj_33,Project
+Project Europa,prj_34,Project
+Project Ganymede,prj_35,Project
+Project Hyperion,prj_36,Project
+Project Janus,prj_37,Project
+Project Tethys,prj_38,Project
+Project Phoebe,prj_39,Project
+Project Rhea,prj_40,Project
+Project Dione,prj_41,Project
+Project Iapetus,prj_42,Project
+Project Triton,prj_43,Project
+Project Proteus,prj_44,Project
+Project Larissa,prj_45,Project
+Bangalore,cty_01,City
+TS,tec_06,Language
+Postgres,tec_08,Database
+Mongo,tec_09,Database
+Apache Cassandra,tec_12,Database
+Elastic,tec_14,Database
+Spring,tec_17,Framework
+ReactJS,tec_18,Framework
+Apache Spark,tec_19,Framework
+Apache Airflow,tec_20,Framework
+S3,tec_23,CloudService
+Lambda,tec_24,CloudService
+Synapse,tec_25,CloudService
+K8s,tec_28,CloudService
+TF,tec_32,MLTool
+sklearn,tec_33,MLTool
+HF Transformers,tec_35,MLTool
+Applied AI team,dep_02,Department
+Cybersecurity team,dep_03,Department
+Cloud Infrastructure team,dep_04,Department
+Customer Insights team,dep_06,Department
+Product Engineering team,dep_07,Department
+Research team,dep_08,Department
+Kestrel,cli_02,Client
+Maple,cli_03,Client
+Halcyon,cli_04,Client
+Northgate,cli_05,Client
+Sterling,cli_06,Client
+Ardent,cli_07,Client
+Pelican,cli_08,Client
+Lumen,cli_10,Client
+Aster,cli_11,Client
+Orbis,cli_13,Client
+Ferrous,cli_16,Client
+Quill,cli_17,Client
+Granite,cli_18,Client
+State,cli_20,Client
+Civic,cli_21,Client
+Prism,cli_22,Client
+Lantern,cli_24,Client
+Y. Tan,per_001,Executive
+K. Ito,per_002,Executive
+K. Rao,per_004,Engineer
+M. Rao,per_005,Manager
+D. Walker,per_006,Engineer
+J. Khan,per_008,Engineer
+N. Clarke,per_009,Engineer
+O. Clarke,per_011,Researcher
+D. Roy,per_012,Engineer
+E. Haddad,per_013,Engineer
+F. Morgan,per_015,Engineer
+S. Gupta,per_017,Engineer
+P. Roy,per_018,Analyst
+I. Khan,per_019,Manager
+C. Fischer,per_020,Analyst
+R. Chatterjee,per_021,Manager
+H. Clarke,per_023,Researcher
+M. Mukherjee,per_024,Researcher
+R. Taylor,per_025,Engineer
+P. Bose,per_026,Engineer
+D. Kim,per_027,Engineer
+L. Khan,per_029,Engineer
+I. Chatterjee,per_030,Analyst
+R. Clarke,per_031,Engineer
+I. Nguyen,per_032,Engineer
+L. Costa,per_033,Engineer
+S. Reddy,per_035,Engineer
+E. Kulkarni,per_036,Engineer
+M. Bose,per_037,Engineer
+E. Clarke,per_039,Engineer
+A. Sato,per_040,Engineer
+M. Evans,per_041,Engineer
+P. Patel,per_043,Manager
+R. Nakamura,per_047,Researcher
+E. Mukherjee,per_050,Engineer
+A. Patel,per_053,Engineer
+A. Tan,per_055,Engineer
+I. Rossi,per_056,Engineer
+M. Roy,per_057,Engineer
+D. Shetty,per_058,Engineer
+D. Rossi,per_059,Engineer
+L. Sharma,per_060,Engineer
+S. Roy,per_061,Analyst
+A. Ghosh,per_064,Engineer
+I. Mukherjee,per_068,Engineer
+J. Fischer,per_069,Researcher
+H. Khan,per_070,Engineer
+S. Singh,per_071,Engineer
+M. Das,per_072,Analyst
+A. Nakamura,per_073,Engineer
+L. Kim,per_075,Engineer
+O. Roy,per_076,Engineer
+A. Kapoor,per_080,Engineer
+C. Sharma,per_081,Analyst
+A. Mukherjee,per_082,Engineer
+T. Dutta,per_083,Engineer
+N. Menon,per_085,Engineer
+T. Kapoor,per_086,Analyst
+E. Singh,per_087,Engineer
+W. Patel,per_088,Engineer
+R. Shetty,per_091,Engineer
+H. Shetty,per_092,Engineer
+M. Pillai,per_093,Engineer
+R. Iyer,per_094,Engineer
+R. Roy,per_095,Manager
+H. Bhat,per_096,Manager
+S. Sato,per_097,Engineer
+M. Menon,per_099,Engineer
+J. Ito,per_101,Analyst
+A. Rao,per_103,Engineer
+F. Lim,per_106,Researcher
+M. Sato,per_107,Engineer
+J. Wong,per_108,Researcher
+R. Haddad,per_109,Engineer
+S. Rao,per_110,Engineer
+H. Lim,per_111,Engineer
+N. Basu,per_112,Analyst
+N. Ghosh,per_116,Engineer
+T. Kim,per_117,Manager
+L. Sen,per_118,Engineer
+Atlas,prj_01,Project
+ORION,prj_02,Project
+Vega,prj_03,Project
+VEGA,prj_03,Project
+Lyra,prj_04,Project
+LYRA,prj_04,Project
+Hydra,prj_05,Project
+HYDRA,prj_05,Project
+APOLLO,prj_06,Project
+Helios,prj_07,Project
+HELIOS,prj_07,Project
+SELENE,prj_08,Project
+Nova,prj_09,Project
+NOVA,prj_09,Project
+Pulsar,prj_10,Project
+PULSAR,prj_10,Project
+Quasar,prj_11,Project
+QUASAR,prj_11,Project
+Zenith,prj_12,Project
+Aurora,prj_13,Project
+Cygnus,prj_14,Project
+CYGNUS,prj_14,Project
+Draco,prj_15,Project
+DRACO,prj_15,Project
+Elara,prj_16,Project
+ELARA,prj_16,Project
+Fornax,prj_17,Project
+FORNAX,prj_17,Project
+Gemini,prj_18,Project
+Halley,prj_19,Project
+HALLEY,prj_19,Project
+Kepler,prj_20,Project
+KEPLER,prj_20,Project
+Mira,prj_21,Project
+MIRA,prj_21,Project
+NEBULA,prj_22,Project
+OBERON,prj_23,Project
+PEGASUS,prj_24,Project
+Rigel,prj_25,Project
+RIGEL,prj_25,Project
+Sirius,prj_26,Project
+SIRIUS,prj_26,Project
+Titan,prj_27,Project
+TITAN,prj_27,Project
+Umbra,prj_28,Project
+Vesta,prj_29,Project
+VESTA,prj_29,Project
+Altair,prj_30,Project
+Bellatrix,prj_31,Project
+BELLATRIX,prj_31,Project
+Callisto,prj_32,Project
+CALLISTO,prj_32,Project
+Deneb,prj_33,Project
+DENEB,prj_33,Project
+Europa,prj_34,Project
+EUROPA,prj_34,Project
+Ganymede,prj_35,Project
+GANYMEDE,prj_35,Project
+HYPERION,prj_36,Project
+Janus,prj_37,Project
+JANUS,prj_37,Project
+Tethys,prj_38,Project
+TETHYS,prj_38,Project
+Phoebe,prj_39,Project
+PHOEBE,prj_39,Project
+RHEA,prj_40,Project
+DIONE,prj_41,Project
+IAPETUS,prj_42,Project
+Triton,prj_43,Project
+TRITON,prj_43,Project
+Proteus,prj_44,Project
+Larissa,prj_45,Project
+LARISSA,prj_45,Project

@@ -1,0 +1,262 @@
+entity_id,alias,ambiguous,in_gazetteer
+cty_01,Bangalore,False,True
+tec_03,Golang,False,False
+tec_06,TS,False,True
+tec_08,Postgres,False,True
+tec_09,Mongo,False,True
+tec_12,Apache Cassandra,False,True
+tec_14,Elastic,False,True
+tec_17,Spring,False,True
+tec_18,ReactJS,False,True
+tec_19,Apache Spark,False,True
+tec_20,Apache Airflow,False,True
+tec_21,Apache Kafka,False,False
+tec_23,S3,False,True
+tec_24,Lambda,False,True
+tec_25,Synapse,False,True
+tec_26,Google BigQuery,False,False
+tec_28,K8s,False,True
+tec_32,TF,False,True
+tec_33,sklearn,False,True
+tec_35,HF Transformers,False,True
+dep_01,Data Platform team,False,False
+dep_02,Applied AI team,False,True
+dep_03,Cybersecurity team,False,True
+dep_04,Cloud Infrastructure team,False,True
+dep_05,Finance Analytics team,False,False
+dep_06,Customer Insights team,False,True
+dep_07,Product Engineering team,False,True
+dep_08,Research team,False,True
+cli_01,Verdant,False,False
+cli_02,Kestrel,False,True
+cli_03,Maple,False,True
+cli_04,Halcyon,False,True
+cli_05,Northgate,False,True
+cli_06,Sterling,False,True
+cli_07,Ardent,False,True
+cli_08,Pelican,False,True
+cli_09,Cobalt,False,False
+cli_10,Lumen,False,True
+cli_11,Aster,False,True
+cli_12,Willow,False,False
+cli_13,Orbis,False,True
+cli_14,Tidewater,False,False
+cli_15,Corvid,False,False
+cli_16,Ferrous,False,True
+cli_17,Quill,False,True
+cli_18,Granite,False,True
+cli_19,Metro,False,False
+cli_20,State,False,True
+cli_21,Civic,False,True
+cli_22,Prism,False,True
+cli_24,Lantern,False,True
+per_001,Y. Tan,False,True
+per_002,K. Ito,False,True
+per_003,S. Clarke,True,False
+per_004,K. Rao,False,True
+per_005,M. Rao,False,True
+per_006,D. Walker,False,True
+per_007,L. Smith,False,False
+per_008,J. Khan,False,True
+per_009,N. Clarke,False,True
+per_010,M. Wong,True,False
+per_011,O. Clarke,False,True
+per_012,D. Roy,False,True
+per_013,E. Haddad,False,True
+per_014,R. Verma,True,False
+per_015,F. Morgan,False,True
+per_016,L. Mehta,False,False
+per_017,S. Gupta,False,True
+per_018,P. Roy,False,True
+per_019,I. Khan,False,True
+per_020,C. Fischer,False,True
+per_021,R. Chatterjee,False,True
+per_022,S. Smith,True,False
+per_023,H. Clarke,False,True
+per_024,M. Mukherjee,False,True
+per_025,R. Taylor,False,True
+per_026,P. Bose,False,True
+per_027,D. Kim,False,True
+per_028,L. Bhat,True,False
+per_029,L. Khan,False,True
+per_030,I. Chatterjee,False,True
+per_031,R. Clarke,False,True
+per_032,I. Nguyen,False,True
+per_033,L. Costa,False,True
+per_034,R. Verma,True,False
+per_035,S. Reddy,False,True
+per_036,E. Kulkarni,False,True
+per_037,M. Bose,False,True
+per_038,P. Nair,True,False
+per_039,E. Clarke,False,True
+per_040,A. Sato,False,True
+per_041,M. Evans,False,True
+per_042,M. Wong,True,False
+per_043,P. Patel,False,True
+per_044,R. Walker,True,False
+per_045,L. Bhat,True,False
+per_046,M. Bhat,False,False
+per_047,R. Nakamura,False,True
+per_048,A. Nguyen,True,False
+per_049,S. Rossi,False,False
+per_050,E. Mukherjee,False,True
+per_051,A. Iyer,False,False
+per_052,P. Verma,False,False
+per_053,A. Patel,False,True
+per_054,R. Malhotra,True,False
+per_055,A. Tan,False,True
+per_056,I. Rossi,False,True
+per_057,M. Roy,False,True
+per_058,D. Shetty,False,True
+per_059,D. Rossi,False,True
+per_060,L. Sharma,False,True
+per_061,S. Roy,False,True
+per_062,L. Joshi,False,False
+per_063,S. Kulkarni,True,False
+per_064,A. Ghosh,False,True
+per_065,T. Gupta,True,False
+per_066,A. Malhotra,False,False
+per_067,R. Malhotra,True,False
+per_068,I. Mukherjee,False,True
+per_069,J. Fischer,False,True
+per_070,H. Khan,False,True
+per_071,S. Singh,False,True
+per_072,M. Das,False,True
+per_073,A. Nakamura,False,True
+per_074,S. Smith,True,False
+per_075,L. Kim,False,True
+per_076,O. Roy,False,True
+per_077,W. Ghosh,False,False
+per_078,A. Nguyen,True,False
+per_079,A. Khan,True,False
+per_080,A. Kapoor,False,True
+per_081,C. Sharma,False,True
+per_082,A. Mukherjee,False,True
+per_083,T. Dutta,False,True
+per_084,S. Walker,True,False
+per_085,N. Menon,False,True
+per_086,T. Kapoor,False,True
+per_087,E. Singh,False,True
+per_088,W. Patel,False,True
+per_089,R. Walker,True,False
+per_090,S. Walker,True,False
+per_091,R. Shetty,False,True
+per_092,H. Shetty,False,True
+per_093,M. Pillai,False,True
+per_094,R. Iyer,False,True
+per_095,R. Roy,False,True
+per_096,H. Bhat,False,True
+per_097,S. Sato,False,True
+per_098,S. Kulkarni,True,False
+per_099,M. Menon,False,True
+per_100,A. Khan,True,False
+per_101,J. Ito,False,True
+per_102,P. Nair,True,False
+per_103,A. Rao,False,True
+per_104,H. Walker,False,False
+per_105,T. Gupta,True,False
+per_106,F. Lim,False,True
+per_107,M. Sato,False,True
+per_108,J. Wong,False,True
+per_109,R. Haddad,False,True
+per_110,S. Rao,False,True
+per_111,H. Lim,False,True
+per_112,N. Basu,False,True
+per_113,E. Nakamura,False,False
+per_114,L. Ghosh,False,False
+per_115,M. Nair,False,False
+per_116,N. Ghosh,False,True
+per_117,T. Kim,False,True
+per_118,L. Sen,False,True
+per_119,S. Clarke,True,False
+per_120,K. Smith,False,False
+prj_01,Atlas,False,True
+prj_01,ATLAS,False,False
+prj_02,Orion,False,False
+prj_02,ORION,False,True
+prj_03,Vega,False,True
+prj_03,VEGA,False,True
+prj_04,Lyra,False,True
+prj_04,LYRA,False,True
+prj_05,Hydra,False,True
+prj_05,HYDRA,False,True
+prj_06,Apollo,False,False
+prj_06,APOLLO,False,True
+prj_07,Helios,False,True
+prj_07,HELIOS,False,True
+prj_08,Selene,False,False
+prj_08,SELENE,False,True
+prj_09,Nova,False,True
+prj_09,NOVA,False,True
+prj_10,Pulsar,False,True
+prj_10,PULSAR,False,True
+prj_11,Quasar,False,True
+prj_11,QUASAR,False,True
+prj_12,Zenith,False,True
+prj_12,ZENITH,False,False
+prj_13,Aurora,False,True
+prj_13,AURORA,False,False
+prj_14,Cygnus,False,True
+prj_14,CYGNUS,False,True
+prj_15,Draco,False,True
+prj_15,DRACO,False,True
+prj_16,Elara,False,True
+prj_16,ELARA,False,True
+prj_17,Fornax,False,True
+prj_17,FORNAX,False,True
+prj_18,Gemini,False,True
+prj_18,GEMINI,False,False
+prj_19,Halley,False,True
+prj_19,HALLEY,False,True
+prj_20,Kepler,False,True
+prj_20,KEPLER,False,True
+prj_21,Mira,False,True
+prj_21,MIRA,False,True
+prj_22,Nebula,False,False
+prj_22,NEBULA,False,True
+prj_23,Oberon,False,False
+prj_23,OBERON,False,True
+prj_24,Pegasus,False,False
+prj_24,PEGASUS,False,True
+prj_25,Rigel,False,True
+prj_25,RIGEL,False,True
+prj_26,Sirius,False,True
+prj_26,SIRIUS,False,True
+prj_27,Titan,False,True
+prj_27,TITAN,False,True
+prj_28,Umbra,False,True
+prj_28,UMBRA,False,False
+prj_29,Vesta,False,True
+prj_29,VESTA,False,True
+prj_30,Altair,False,True
+prj_30,ALTAIR,False,False
+prj_31,Bellatrix,False,True
+prj_31,BELLATRIX,False,True
+prj_32,Callisto,False,True
+prj_32,CALLISTO,False,True
+prj_33,Deneb,False,True
+prj_33,DENEB,False,True
+prj_34,Europa,False,True
+prj_34,EUROPA,False,True
+prj_35,Ganymede,False,True
+prj_35,GANYMEDE,False,True
+prj_36,Hyperion,False,False
+prj_36,HYPERION,False,True
+prj_37,Janus,False,True
+prj_37,JANUS,False,True
+prj_38,Tethys,False,True
+prj_38,TETHYS,False,True
+prj_39,Phoebe,False,True
+prj_39,PHOEBE,False,True
+prj_40,Rhea,False,False
+prj_40,RHEA,False,True
+prj_41,Dione,False,False
+prj_41,DIONE,False,True
+prj_42,Iapetus,False,False
+prj_42,IAPETUS,False,True
+prj_43,Triton,False,True
+prj_43,TRITON,False,True
+prj_44,Proteus,False,True
+prj_44,PROTEUS,False,False
+prj_45,Larissa,False,True
+prj_45,LARISSA,False,True

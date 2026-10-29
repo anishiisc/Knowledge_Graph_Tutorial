@@ -1,0 +1,61 @@
+qid,question,start_entity_id,path,hops,answer_type,answers
+q_001,Who leads Project Iapetus?,prj_42,leads<,1,Person,per_106
+q_002,Who leads Project Rigel?,prj_25,leads<,1,Person,per_026
+q_003,Who leads Project Helios?,prj_07,leads<,1,Person,per_030
+q_004,Who leads Project Quasar?,prj_11,leads<,1,Person,per_056
+q_005,Who leads Project Rhea?,prj_40,leads<,1,Person,per_005
+q_006,Which client is Project Phoebe delivered for?,prj_39,delivered_for>,1,Client,cli_03
+q_007,Which client is Project Proteus delivered for?,prj_44,delivered_for>,1,Client,cli_11
+q_008,Which client is Project Sirius delivered for?,prj_26,delivered_for>,1,Client,cli_23
+q_009,Which client is Project Aurora delivered for?,prj_13,delivered_for>,1,Client,cli_11
+q_010,Which client is Project Europa delivered for?,prj_34,delivered_for>,1,Client,cli_24
+q_011,Which technologies does Project Vega use?,prj_03,uses_tech>,1,Technology,tec_01;tec_05;tec_17;tec_23;tec_33
+q_012,Which technologies does Project Altair use?,prj_30,uses_tech>,1,Technology,tec_03;tec_06;tec_09;tec_22;tec_33
+q_013,Which technologies does Project Ganymede use?,prj_35,uses_tech>,1,Technology,tec_05;tec_09;tec_14;tec_18;tec_26
+q_014,Which technologies does Project Fornax use?,prj_17,uses_tech>,1,Technology,tec_01;tec_14;tec_21;tec_28
+q_015,Which technologies does Project Draco use?,prj_15,uses_tech>,1,Technology,tec_01;tec_03;tec_28;tec_29
+q_016,Who reports directly to Pooja Patel?,per_043,reports_to<,1,Person,per_034;per_053;per_066;per_077;per_078;per_088;per_097;per_101;per_110;per_112;per_113;per_115;per_119
+q_017,Who reports directly to Layla Ghosh?,per_114,reports_to<,1,Person,per_010;per_012;per_015;per_064;per_071;per_076;per_084;per_091;per_092;per_093;per_102;per_116
+q_018,Who reports directly to Hiroshi Bhat?,per_096,reports_to<,1,Person,per_014;per_054;per_058;per_100;per_109
+q_019,Who reports directly to Manish Rao?,per_005,reports_to<,1,Person,per_004;per_008;per_032;per_040;per_042;per_044;per_050;per_052;per_060;per_068;per_079;per_080;per_085
+q_020,Who reports directly to Isha Khan?,per_019,reports_to<,1,Person,per_011;per_023;per_024;per_031;per_041;per_047;per_051;per_069;per_090;per_106;per_108
+q_021,Which technologies are used by the projects James Fischer works on?,per_069,"works_on>,uses_tech>",2,Technology,tec_04;tec_13;tec_19;tec_35
+q_022,Which technologies are used by the projects Priya Verma works on?,per_052,"works_on>,uses_tech>",2,Technology,tec_02;tec_06;tec_08;tec_17;tec_23;tec_25
+q_023,Which technologies are used by the projects Sarah Rao works on?,per_110,"works_on>,uses_tech>",2,Technology,tec_01;tec_05;tec_09;tec_11;tec_14;tec_18;tec_26;tec_33
+q_024,Which technologies are used by the projects Mateo Sato works on?,per_107,"works_on>,uses_tech>",2,Technology,tec_01;tec_04;tec_14;tec_21;tec_30
+q_025,Which technologies are used by the projects Divya Shetty works on?,per_058,"works_on>,uses_tech>",2,Technology,tec_01;tec_05;tec_06;tec_08;tec_13;tec_17;tec_18;tec_19;tec_20;tec_23;tec_25;tec_27;tec_33
+q_026,Which clients has Imran Chatterjee worked for?,per_030,"works_on>,delivered_for>",2,Client,cli_06;cli_11;cli_23
+q_027,Which clients has Shreya Clarke worked for?,per_119,"works_on>,delivered_for>",2,Client,cli_03;cli_15
+q_028,Which clients has Priya Nair worked for?,per_038,"works_on>,delivered_for>",2,Client,cli_03;cli_13;cli_15
+q_029,Which clients has Sneha Smith worked for?,per_022,"works_on>,delivered_for>",2,Client,cli_08;cli_13
+q_030,Which clients has Daniel Walker worked for?,per_006,"works_on>,delivered_for>",2,Client,cli_19;cli_20
+q_031,In which cities are the clients of the projects Lucas Costa works on based?,per_033,"works_on>,delivered_for>,located_in>",3,City,cty_05
+q_032,In which cities are the clients of the projects James Wong works on based?,per_108,"works_on>,delivered_for>,located_in>",3,City,cty_03;cty_04;cty_05
+q_033,In which cities are the clients of the projects Meera Das works on based?,per_072,"works_on>,delivered_for>,located_in>",3,City,cty_02;cty_04;cty_06
+q_034,In which cities are the clients of the projects Aditya Patel works on based?,per_053,"works_on>,delivered_for>,located_in>",3,City,cty_02
+q_035,In which cities are the clients of the projects Divya Rossi works on based?,per_059,"works_on>,delivered_for>,located_in>",3,City,cty_01;cty_03;cty_04
+q_036,Who works in the same department as Sneha Smith?,per_022,"works_in>,works_in<",2,Person,per_007;per_014;per_018;per_035;per_038;per_039;per_054;per_058;per_067;per_072;per_075;per_096;per_100;per_103;per_109
+q_037,Who works in the same department as Elena Clarke?,per_039,"works_in>,works_in<",2,Person,per_007;per_014;per_018;per_022;per_035;per_038;per_054;per_058;per_067;per_072;per_075;per_096;per_100;per_103;per_109
+q_038,Who works in the same department as Yuki Tan?,per_001,"works_in>,works_in<",2,Person,per_002;per_003
+q_039,Who works in the same department as Ananya Tan?,per_055,"works_in>,works_in<",2,Person,per_006;per_009;per_013;per_020;per_033;per_036;per_057;per_062;per_063;per_070;per_107
+q_040,Who works in the same department as Meera Roy?,per_057,"works_in>,works_in<",2,Person,per_006;per_009;per_013;per_020;per_033;per_036;per_055;per_062;per_063;per_070;per_107
+q_041,Which people have a skill in a technology used by Project Bellatrix?,prj_31,"uses_tech>,has_skill<",2,Person,per_005;per_009;per_014;per_017;per_020;per_021;per_025;per_028;per_029;per_032;per_034;per_043;per_048;per_049;per_052;per_056;per_059;per_063;per_066;per_075;per_077;per_081;per_083;per_086;per_088;per_089;per_094;per_097;per_104;per_110;per_111;per_112;per_113;per_115;per_120
+q_042,Which people have a skill in a technology used by Project Dione?,prj_41,"uses_tech>,has_skill<",2,Person,per_004;per_005;per_008;per_010;per_012;per_014;per_015;per_032;per_037;per_038;per_040;per_042;per_045;per_050;per_054;per_055;per_058;per_060;per_065;per_066;per_068;per_070;per_071;per_074;per_077;per_080;per_082;per_084;per_085;per_088;per_092;per_097;per_101;per_102;per_114;per_115;per_119
+q_043,Which people have a skill in a technology used by Project Oberon?,prj_23,"uses_tech>,has_skill<",2,Person,per_009;per_010;per_012;per_013;per_015;per_016;per_020;per_031;per_037;per_044;per_050;per_055;per_057;per_060;per_061;per_062;per_063;per_064;per_065;per_068;per_071;per_074;per_076;per_084;per_085;per_088;per_091;per_093;per_097;per_102;per_107;per_114;per_115;per_120
+q_044,Which people have a skill in a technology used by Project Tethys?,prj_38,"uses_tech>,has_skill<",2,Person,per_004;per_005;per_008;per_010;per_012;per_014;per_015;per_025;per_032;per_037;per_038;per_040;per_042;per_045;per_050;per_055;per_058;per_060;per_065;per_066;per_068;per_071;per_074;per_077;per_079;per_080;per_082;per_084;per_085;per_088;per_092;per_097;per_102;per_114;per_115;per_119;per_120
+q_045,Which people have a skill in a technology used by Project Janus?,prj_37,"uses_tech>,has_skill<",2,Person,per_004;per_005;per_008;per_010;per_011;per_012;per_015;per_024;per_025;per_037;per_040;per_042;per_045;per_050;per_051;per_055;per_060;per_065;per_068;per_071;per_074;per_079;per_080;per_082;per_084;per_085;per_088;per_097;per_102;per_108;per_114;per_115;per_119;per_120
+q_046,"What does dbt depend on, directly or indirectly?",tec_22,depends_on+>,1,Technology,tec_05
+q_047,"What does Spring Boot depend on, directly or indirectly?",tec_17,depends_on+>,1,Technology,tec_02
+q_048,"What does PyTorch depend on, directly or indirectly?",tec_31,depends_on+>,1,Technology,tec_01
+q_049,"What does Neo4j depend on, directly or indirectly?",tec_10,depends_on+>,1,Technology,tec_02
+q_050,"What does Airflow depend on, directly or indirectly?",tec_20,depends_on+>,1,Technology,tec_01
+q_051,Who are the colleagues of Aditya Ghosh on shared projects?,per_064,"works_on>,works_on<",2,Person,per_015;per_044;per_046;per_057;per_062;per_068;per_070;per_073;per_076;per_084;per_091;per_093;per_102;per_113;per_114;per_116
+q_052,Who are the colleagues of Riya Malhotra on shared projects?,per_067,"works_on>,works_on<",2,Person,per_014;per_035;per_038;per_040;per_072
+q_053,Who are the colleagues of Kavya Smith on shared projects?,per_120,"works_on>,works_on<",2,Person,per_017;per_026;per_029;per_048;per_095
+q_054,Who are the colleagues of Rahul Verma on shared projects?,per_034,"works_on>,works_on<",2,Person,per_043;per_053;per_056;per_077;per_088;per_110;per_112;per_115
+q_055,Who are the colleagues of Kavya Rao on shared projects?,per_004,"works_on>,works_on<",2,Person,per_011;per_024;per_030;per_051;per_108
+q_056,Who is in the management chain above Sneha Singh?,per_071,reports_to+>,1,Person,per_001;per_002;per_114
+q_057,Who is in the management chain above Rahul Walker?,per_089,reports_to+>,1,Person,per_001;per_002;per_021;per_117
+q_058,Who is in the management chain above Olivia Clarke?,per_011,reports_to+>,1,Person,per_001;per_002;per_019
+q_059,Who is in the management chain above Lucas Bhat?,per_028,reports_to+>,1,Person,per_001;per_002;per_021
+q_060,Who is in the management chain above Hiroshi Bhat?,per_096,reports_to+>,1,Person,per_001;per_002;per_038
